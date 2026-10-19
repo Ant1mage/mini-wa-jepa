@@ -201,11 +201,46 @@ class RerunLogger:
                 pixels=(size-1)/2-points[:,[1,0]]*(size/extent_m)
                 self._log(path,rr.LineStrips2D([pixels],colors=list(color)))
             else:self._log(path,rr.Clear(recursive=True))
-        predicted_latent,target_latent=np.asarray(predicted_latent),np.asarray(target_latent)
-        if predicted_latent.shape!=target_latent.shape or predicted_latent.ndim!=3:
+        predicted_latent=np.asarray(predicted_latent)
+        if predicted_latent.ndim!=3:
+            raise ValueError('Candidate prediction must be [H,N,D]')
+        if target_latent is None:
+            if len(predicted_latent):
+                self._log(f'latent/candidates/{candidate_id}/predicted',rr.Tensor(
+                    predicted_latent,dim_names=['horizon','token','channel']))
+            else:
+                self._log(f'latent/candidates/{candidate_id}/predicted',rr.Clear(recursive=True))
+            self._log(f'latent/candidates/{candidate_id}/target',rr.Clear(recursive=True))
+            return
+        target_latent=np.asarray(target_latent)
+        if predicted_latent.shape!=target_latent.shape:
             raise ValueError('Candidate latents require matching [H,N,D] arrays')
         for label,value in (('predicted',predicted_latent),('target',target_latent)):
             if len(value):self._log(f'latent/candidates/{candidate_id}/{label}',rr.Tensor(value,dim_names=['horizon','token','channel']))
+
+    def log_planning(self, *, candidates, selected_id, selected_trajectory, selection_source,
+                     scores=None, terms=None, rejection_reasons=None, predicted=None,
+                     executed_action=None):
+        """Record a real candidate bank and explicit selector/fallback provenance.
+
+        No counterfactual target is invented for unexecuted plans. Actual subsequent
+        replanning outcomes are logged separately as actual trajectories/observations.
+        """
+        import json
+        candidates=np.asarray(candidates)
+        ids=['MSE'] if len(candidates)==1 else [chr(65+i) for i in range(len(candidates))]
+        colors=[(40,180,255),(255,100,100),(100,220,100),(255,200,40),
+                (200,100,255),(255,150,50),(50,255,200),(200,200,200)]
+        for i,name in enumerate(ids):
+            latent=np.empty((0,64,256),np.float32) if predicted is None else predicted[i]
+            self.log_candidate(name,commanded=candidates[i],actual=np.empty((0,4)),
+                predicted_latent=latent,target_latent=None,color=colors[i%len(colors)])
+        self.log_trajectories(planned=selected_trajectory)
+        self.log_context(selected_id=selected_id,selection_source=selection_source,candidate_ids=ids,
+            score_json=json.dumps(None if scores is None else np.asarray(scores).tolist()),
+            terms_json=json.dumps(None if terms is None else np.asarray(terms).tolist()),
+            rejection_json=json.dumps(rejection_reasons),
+            executed_action_json=json.dumps(None if executed_action is None else np.asarray(executed_action).tolist()))
 
     def close(self):
         if not self._closed:

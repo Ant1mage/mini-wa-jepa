@@ -145,7 +145,7 @@ def _(launch_rerun, mo, project_root, sys):
 
 @app.cell
 def _(mo):
-    stage_select = mo.ui.dropdown(options={f"阶段 {i}": i for i in (2, 3, 4, 5, 6)}, value="阶段 2", label="阶段指标")
+    stage_select = mo.ui.dropdown(options={f"阶段 {i}": i for i in (2, 3, 4, 5, 6, 7)}, value="阶段 7", label="阶段指标")
     refresh_reports = mo.ui.run_button(label="刷新阶段报告")
     mo.hstack([stage_select, refresh_reports], justify="start")
     return refresh_reports, stage_select
@@ -178,7 +178,9 @@ def _(METRICS, metric_select, mo, stage_rows):
     if _measured:
         _metric_view = mo.ui.table([
             {"run": row["run_id"], "model": row["model"], "ablation": row["ablation"],
-             "split": row["split"], "seed": row["seed"], METRICS[metric_select.value]: row[metric_select.value]}
+             "split": row["split"], "seed": row["seed"],
+             **{key:row.get(key) for key in ('seed_kind','training_seed','evaluation_kind')},
+             METRICS[metric_select.value]: row[metric_select.value]}
             for row in _measured], selection=None)
     else:
         _metric_view = mo.md("*所选指标尚未产出。*")

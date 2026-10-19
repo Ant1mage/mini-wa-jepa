@@ -9,8 +9,9 @@ import subprocess
 def provenance(config=None):
     root=Path(__file__).resolve().parent.parent
     files={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest()
-           for directory in ('configs','controller','dataset','env','models','training','evaluation','scripts','mini_wa_jepa')
+           for directory in ('configs','controller','dataset','env','models','training','evaluation','scripts','mini_wa_jepa','planning','chapters','tests')
            for p in (root/directory).rglob('*.py') if '__pycache__' not in p.parts}
+    files['app.py']=hashlib.sha256((root/'app.py').read_bytes()).hexdigest()
     return dict(git_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip(),
         git_dirty=bool(subprocess.check_output(['git','status','--porcelain'],cwd=root,text=True).strip()),
         goal_sha256=hashlib.sha256((root/'GOAL.md').read_bytes()).hexdigest(),

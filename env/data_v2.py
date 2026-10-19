@@ -46,7 +46,7 @@ def configure_egl(device=1):
     return limit_filter_msaa(0)
 
 
-def make_env(map_spec, seed_start, cfg, camera=False, num_scenarios=100, control_dt_s=None, environment_overrides=None):
+def make_env(map_spec, seed_start, cfg, camera=False, num_scenarios=100, control_dt_s=None, environment_overrides=None, semantic_order=False):
     from metadrive.policy.env_input_policy import EnvInputPolicy
     spec=SemanticBEVSpec(cfg.bev.size,cfg.bev.extent_m,cfg.bev.height_m)
     dt_s=control_dt_s or cfg.dt_s
@@ -66,7 +66,7 @@ def make_env(map_spec, seed_start, cfg, camera=False, num_scenarios=100, control
                      window_size=(640,360))
     if environment_overrides is not None:extra.update(environment_overrides)
     return make_semantic_env(spec,num_scenarios,seed_start,cfg.horizon,overrides=extra,
-                             road_termination=FullOffroadRule(dt_s,cfg.offroad_grace_s))
+                             road_termination=FullOffroadRule(dt_s,cfg.offroad_grace_s),semantic_order=semantic_order)
 
 
 class NativeBEVProvider(BEVProvider):

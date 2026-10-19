@@ -16,7 +16,24 @@ class SemanticBEVSpec:
     height_m: float = 50.0
 
 
-def make_semantic_env(spec=SemanticBEVSpec(), episodes=100, start_seed=0, horizon=500, overrides=None, road_termination=None):
+def configure_semantic_draw_order(sensor):
+    """Give coplanar semantic surfaces a stable order, retaining native depth tests.
+
+    Native state sorting can alternate terrain/sidewalk at exactly equal depth.
+    This affects the semantic camera only, without changing geometry or physics.
+    """
+    from metadrive.constants import Semantics
+    from panda3d.core import CullBinAttrib
+    cam=sensor.cam.node()
+    for name in vars(Semantics):
+        if name.startswith('_'):continue
+        category=getattr(Semantics,name)
+        if not hasattr(category,'label'):continue
+        rank={'TERRAIN':0,'ROAD':10,'CROSSWALK':11,'LANE_LINE':12,'SIDEWALK':20}.get(name,30)
+        cam.setTagState(category.label,cam.getTagState(category.label).addAttrib(CullBinAttrib.make('fixed',rank)))
+
+
+def make_semantic_env(spec=SemanticBEVSpec(), episodes=100, start_seed=0, horizon=500, overrides=None, road_termination=None, semantic_order=False):
     from metadrive.component.sensors.semantic_camera import SemanticCamera
     from metadrive.envs.metadrive_env import MetaDriveEnv
     from metadrive.policy.idm_policy import IDMPolicy
@@ -30,6 +47,7 @@ def make_semantic_env(spec=SemanticBEVSpec(), episodes=100, start_seed=0, horizo
         def reset_sensors(self):
             super().reset_sensors()
             sensor = self.engine.get_sensor('bev_semantic')
+            if semantic_order:configure_semantic_draw_order(sensor)
             lens = OrthographicLens()
             lens.setFilmSize(spec.extent_m, spec.extent_m)
             lens.setNearFar(0.1, spec.height_m + 100)

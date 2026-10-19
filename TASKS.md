@@ -1,5 +1,13 @@
 # Restarted plan — GOAL.md v2
 
+## Rebuildable cache cleanup (2026-10-19)
+
+- [x] Remove `outputs/data/stage2_v2_100k/baseline_cache` (7,889,485,824 allocated bytes) and 29 project `__pycache__` directories (1,990,656 allocated bytes), as explicitly requested
+- [x] Validate all 240 original schema-2 shards (120,000 frames) with ZIP CRC checks before deletion; verify no process maps the BEV cache and no tracked files are removed
+- [x] Verify all 6,494 remaining artifact/output files retain their sizes and modification times; preserve `.venv`, `.deps`, Stage 6 features, original datasets, checkpoints and recordings
+
+Measured filesystem free-space increase: 7,891,611,648 bytes (7.35 GiB). Audit: `artifacts/cache_cleanup_20261019/cleanup.json`, including source commit and GOAL hash. Production datasets automatically rebuild the removed cache from original compressed shards; standalone chapter training needs that cache rebuilt first. No model or application source changed.
+
 ## Git history reset (2026-10-19)
 
 User authorized removing all previous local/remote Git history and publishing the current workspace to remote `main`. This supersedes earlier Git-history retention requirements; existing source snapshots, experiment reports, failed-run evidence, datasets and model files on disk remain preserved.
@@ -172,7 +180,14 @@ The legacy same-process desktop viewer remains a known unresolved failure.
 - [ ] Implement primary planning-process view through RerunLogger during the authorized Stage 6/7 work; retain prediction/truth and latent diagnostics as supporting evidence
 
 - [x] Stage 6: action-conditioned world prediction (all scientific and delivery gates passed; report delivered)
-- [ ] Stage 7: risk prediction and candidate trajectory planning
+- [x] Stage 7 experiments and delivery complete: generation, risk-gain and planning scientific gates FAILED; retain frozen MSE; Stage 8 not started
+  - [x] Freeze Stage 7 protocol (`docs/STAGE7_PROTOCOL.md`) and configuration (`configs/stage7.py`)
+  - [x] Implement formal risk collector (`scripts/collect_stage7_risk.py`) and preflight helpers (`scripts/preflight_risk_collection.py`)
+  - [x] Update risk collection unit tests (`tests/test_stage7_collection.py`)
+  - [ ] Execute right-turn preflight and formal risk data collection (by Codex)
+  - [ ] Conditional Flow Matching trajectory head training & diversity validation (in progress by Codex)
+  - [ ] Action-conditioned risk prediction head training & calibration (AUROC/AUPRC)
+  - [ ] 3-Arm closed-loop evaluation (48 episodes, independent seeds 1010000/1020000)
 - [ ] Stage 8: full MetaDrive closed-loop acceptance
 - [ ] Stage 9: transfer to 3D racing game (final project goal)
 
@@ -180,3 +195,34 @@ The legacy same-process desktop viewer remains a known unresolved failure.
 ## Stage 5 measured report completion
 
 Formal evaluation completed: 9,600 matched anchors × 3 models × 10 conditions; 126 closed-loop episodes. Protocol/delivery gates passed=True. Results, per-condition paired CIs, raw predictions, TensorBoard, RRD, actual rollout videos, acceptance video and measured dashboard are under `artifacts/restart_stage5/`. Lower absolute error and smaller degradation increments are evaluated separately; no universal robustness gain is presumed. See REPORT.md and summary.json. Stop here awaiting explicit Stage 6 confirmation.
+
+## Stage 7 Codex review — experiments complete, scientific acceptance failed (2026-10-20)
+
+User explicitly authorized Stage 7 and requested Gemini implementation through Relay, with Codex planning, independent acceptance and defect review. Stage 6 remains accepted; Stage 8 remains pending. The initial protocol draft was subsequently frozen before formal experiments; the appended deployment-scoring section is authoritative for the three-arm comparison.
+
+- [x] Verify original hardware/backend and baseline parameter count: native ROCm 2.9.1+rocm6.4, approximately 20 GiB VRAM; Stage 4 has 22,372,200 parameters. Preserve hashes for 10 prior best checkpoints.
+- [x] Reject two empty Relay SUCCESS results; identify native headless CLI command confirmation denial, retain an audit, and use Gemini file editing with Codex executing validation commands.
+- [x] Correct nonexistent Stage 6 checkpoint path, remove unobserved execution-time steering interventions from risk protocol, and correct unused pytest dependency/NumPy boolean identity assertions. Collection tests: 8 passed.
+- [x] Execute and independently audit train-only risk preflight 001: 26 branches, collision 10 positive/16 negative, off-road 0 positive/26 negative; all ego/scene errors and BEV differences exactly zero. Hashes and per-outcome censor masks agree with raw outcomes.
+- [x] Revise train-only risk preflight to achieve actual off-road event coverage without changing simulator termination semantics or using geometric labels. Preflight 001 fails this coverage check and is preserved; right-turn preflight has 6/26 off-road positives.
+- [x] Review and run Gemini Flow Matching implementation; complete risk, planning, matched closed-loop comparisons and interactive delivery. Experiments/delivery complete, scientific acceptance FAILED.
+
+Review records: `artifacts/restart_stage7/codex_review/`. Raw preflight: `artifacts/restart_stage7/preflight_001/` and its log. No new videos produced.
+
+2026-10-19 user supersedes the delegation arrangement: Codex resumes implementation and experiments while the user investigates Relay. Stage 7 remains the only authorized active stage. Fixed right-turn preflight completed 26 branches, with 6 actual off-road positives; all 17 collection/flow tests passed after correcting contextlib.nullcontext. Formal Flow cache contains 20,000/2,048/2,048 expert anchors; first 25-epoch seed completed. Formal two-part train risk collection and the second Flow seed started. All results remain provisional until full audit.
+
+2026-10-20 ongoing audit: both 25-epoch Flow runs completed; non-oracle test ADE 2.0370/1.7211m vs frozen MSE 0.1290m, so generation precision fails. No test-driven retraining or candidate postprocessing. Raw predicted diversity alone does not establish feasibility. Full suite initially 105/105 passed; real browser keyboard sliders, tab switching and same-record next-decision replay passed. Final suite includes later acceptance and observed-motion regression checks. Risk collection preserves typed native outcomes, currently only sidewalk crashes, with no vehicle collision evidence.
+
+- [x] Find collector placeholder-ego defect before formal risk training. Preserve original raw files and zero-ego smoke artifacts. Implement separate exact prefix replay recovery with BEV/full-scene checks and immutable sidecars; formal caching refuses missing recovery.
+- [x] Preserve native strict-replay failures in original risk_train_b/risk_test: each has one differing SIDEWALK/TERRAIN boundary pixel with identical float64 poses/camera/state. Fresh-engine and 24-bit-depth probes fail to eliminate it; camera-only fixed semantic draw order passes 16/16 repeats at each failed context. No pixel masking or tolerance relaxation. Source diff and exact version allowlist are retained in codex_review/determinism_repair.*.
+- [x] Add continuation into new partitions, copying only completed contexts and recomputing counts; old failed partitions/partial branches stay untouched. All original map/seed/anchor contexts remain required. Each context records its renderer version, and motion replay uses that version. Source collector now writes actual ego history rather than a placeholder.
+- [x] Finish 192-context risk collection/recovery, matched world/zero-world heads, two-seed three-arm closed loop (48 episodes), report, RRD readback and final interactive delivery audit.
+- [x] Stop after Stage 7 report. Stage 8 requires explicit user confirmation and has not started.
+
+Final Stage 7: Flow sample1 ADE 2.0370/1.7211m vs MSE0.1290m; pointwise kinematic validity52.91%/54.33% fails95%. Risk test has256crash/28offroad positives across8/4 positive seed clusters; all crashes are sidewalk contacts, with no vehicle collisions. World improves held-out offroad Brier42.46%/34.85%, but seed20261021 CI crosses zero (also crash gain CI), so the frozen two-seed world-gain criterion fails. All48 closed-loop episodes completed: MSE mean route0.985084 on both paired repeats; geometry/full0.015826, fallback fraction1.0 and mean actual travelled distance only0.0825m (MSE319.93m). The small route fraction mainly reflects the spawn offset, not learned driving. Retain the original MSE policy; do not start Stage8 or retune on these test outcomes.
+
+Delivery:111 tests passed,142 native RRD files read successfully, actual browser tab/keyboard-slider/replay checks passed,56 measured dashboard rows without parser errors, Chinese Chapter7 and static HTML snapshots delivered. Source/config/seeds/GOAL hashes, all raw arrays, checkpoints, TensorBoard, latent/trajectory figures and RRD, prior failures/MREs and source-repair audit retained. All10 preexisting best.pt hashes unchanged. Reports: `artifacts/restart_stage7/REPORT.md`, summary.json, acceptance.json, metrics.json; technical review: codex_review/review_findings.md. Static exports are snapshots; root `app.py` provides runtime interactivity. No new video or known-broken desktop path was launched.
+
+The Stage7 Flow feature build recreated the rebuildable `outputs/data/stage2_v2_100k/baseline_cache` (~7.5GB) for aligned expert labels and MSE controls. The earlier cache-cleanup inventory records its historical deletion, not the current rebuilt state. Schema1 training datasets remain removed.
+
+Report-only audit failures were preserved and corrected: repeat determinism now compares predictions/labels/indices and records varying timing arrays separately; four early process-monitor records missing PSS remain explicitly missing and are never substituted with RSS or zero. No experiment was retrained or reselected for either reporting fix.

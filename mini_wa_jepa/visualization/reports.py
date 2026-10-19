@@ -18,13 +18,18 @@ METRICS = {
     'delta_mse': 'Same-context consequence delta MSE',
     'retrieval_accuracy': 'Candidate consequence retrieval accuracy',
     'wrong_command_mse': 'Wrong-command latent MSE',
+    'diversity_m': 'Mean pairwise candidate distance (m)',
+    'crash_auroc': 'Crash risk AUROC', 'offroad_auroc': 'Off-road risk AUROC',
+    'crash_brier': 'Crash risk Brier score', 'offroad_brier': 'Off-road risk Brier score',
+    'fallback_fraction': 'Rule fallback fraction',
+    'replanned_execution_ade_m': 'Plan vs subsequent replanned execution ADE (m)',
 }
 
 
 def load_stage_runs(project_root, stage):
     """Return flattened runs, report metadata and visible validation errors."""
-    if stage not in (2, 3, 4, 5, 6):
-        raise ValueError('Expected stage 2–6')
+    if stage not in (2, 3, 4, 5, 6, 7):
+        raise ValueError('Expected stage 2–7')
     root = Path(project_root)
     paths = sorted(set((root / 'artifacts' / f'stage{stage}').glob('**/metrics.json')) |
                    set((root / 'artifacts' / f'restart_stage{stage}').glob('**/metrics.json')))
@@ -46,7 +51,7 @@ def load_stage_runs(project_root, stage):
                     raise ValueError('Each run must contain a metrics object')
                 row = {key: run[key] for key in ('run_id', 'model', 'ablation', 'split', 'seed')}
                 row['stage'] = stage
-                for field in ('degradation_type', 'degradation_level'):
+                for field in ('degradation_type', 'degradation_level', 'seed_kind', 'training_seed', 'evaluation_kind'):
                     if field in run:
                         row[field] = run[field]
                 for key in METRICS:

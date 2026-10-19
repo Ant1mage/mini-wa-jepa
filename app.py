@@ -26,7 +26,8 @@ def _():
     from chapters.chapter4_joint_world_action import ui as lesson4
     from chapters.chapter5_stress_testing import ui as lesson5
     from chapters.chapter6_action_conditioned import ui as lesson6
-    for _lesson in (lesson0, lesson1, lesson2, lesson3, lesson4, lesson5, lesson6):
+    from chapters.chapter7_candidate_planning import ui as lesson7
+    for _lesson in (lesson0, lesson1, lesson2, lesson3, lesson4, lesson5, lesson6, lesson7):
         importlib.reload(_lesson)
     return (
         CHAPTERS,
@@ -37,6 +38,7 @@ def _():
         lesson4,
         lesson5,
         lesson6,
+        lesson7,
         mo,
     )
 
@@ -97,6 +99,7 @@ def _(
     ch4_controls,
     ch5_controls,
     ch6_controls,
+    ch7_controls,
     chapter_select,
     lesson0,
     lesson1,
@@ -105,6 +108,7 @@ def _(
     lesson4,
     lesson5,
     lesson6,
+    lesson7,
 ):
     selected = chapter_select.value
     _lesson, _controls = {
@@ -112,6 +116,7 @@ def _(
         "ch2": (lesson2, ch2_controls), "ch3": (lesson3, ch3_controls),
         "ch4": (lesson4, ch4_controls), "ch5": (lesson5, ch5_controls),
         "ch6": (lesson6, ch6_controls),
+        "ch7": (lesson7, ch7_controls),
     }[selected]
     # 控件由上游cell拥有；此处读取value并显示相同控件，避免操作后重置。
     content = _lesson.render(_controls.value, _controls)
@@ -123,6 +128,12 @@ def _(
 def _(lesson6):
     ch6_controls = lesson6.make_controls()
     return (ch6_controls,)
+
+
+@app.cell(hide_code=True)
+def _(lesson7):
+    ch7_controls = lesson7.make_controls()
+    return (ch7_controls,)
 
 
 if __name__ == "__main__":

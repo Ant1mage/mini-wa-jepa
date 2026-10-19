@@ -71,7 +71,7 @@ with RerunLogger(app_id="mini-wa-jepa", spawn=args.rerun,
 
 ## Marimo 实测报告格式
 
-看板扫描 `artifacts/stage{2,3,4,5}/**/metrics.json` 和 `artifacts/restart_stage{2,3,4,5}/**/metrics.json`。点击“刷新阶段报告”重新读取；表格按模型、消融、split、seed 展示实测值，比较图不跨 seed 擅自求均值。格式如下（示意字段，**不要把示例作为实验报告保存**）：
+看板扫描 `artifacts/stage{2,3,4,5,6,7}/**/metrics.json` 和 `artifacts/restart_stage{2,3,4,5,6,7}/**/metrics.json`。点击“刷新阶段报告”重新读取；表格按模型、消融、split、seed 展示实测值，比较图不跨 seed 擅自求均值。格式如下（示意字段，**不要把示例作为实验报告保存**）：
 
 ```json
 {
@@ -105,3 +105,11 @@ with RerunLogger(app_id="mini-wa-jepa", spawn=args.rerun,
 ```
 
 `visualization_schema_version` 是指标报告格式，`spec_version=2` 指当前 GOAL 规格，不是旧数据的 schema_version=1。指标可以缺省或 null，不能伪造零值。比例用 0–1，距离用米，延迟用毫秒；同一报告须附配置、seed、源码 commit、GOAL hash，并保留原始评测数据、TensorBoard、视频和 `.rrd`。格式/来源缺失、非有限值或 legacy 报告会显示错误而不会混入新版对比。
+
+## 阶段 7 的实测与交互
+
+本阶段遵循2026-10-19最新约定，不新增视频。根目录 `app.py` 的 Chapter 7 展示冻结 Flow 的11个真实积分状态，以及同一条 `closed_*/<map_seed>/actual.npz` 驾驶记录的逐步回放。全部候选、评分、拒绝原因、选中来源、执行动作和之后重新规划下的实际轨迹同源；规则 STOP 必须明示。截图和静态HTML仅是运行时交互的快照。
+
+`metrics.json` 的 `evaluation_kind` 区分 `expert_open_loop`、`fixed_command_risk`、`closed_loop`；`seed_kind` 区分训练种子与仿真种子，闭环行另含 `training_seed`。开环 `ade_m/fde_m` 只与专家真值比较。`replanned_execution_ade_m` 与随后重新规划下的实际执行比较，不能替代专家误差。两个训练种子共享8个闭环场景，不能合称16个独立场景。`diversity_m`、风险 AUROC/Brier、`fallback_fraction` 分开呈现，科学失败不能由规则停止的低碰撞率掩盖。
+
+`RerunLogger.log_planning` 保存候选、选择、评分和执行；实际后续潜变量明确标为重新规划下观测，不是固定命令的反事实真值。未执行候选的 target 保持缺失。周期训练记录保留真正 latent prediction/target 与实际轨迹；潜变量不会被渲染为虚构未来车辆/道路。
