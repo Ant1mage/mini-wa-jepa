@@ -1,0 +1,2228 @@
+{
+  "config": {
+    "episodes": 100,
+    "start_seed": 0,
+    "horizon": 500,
+    "map": 3,
+    "traffic_density": 0.1,
+    "bev_size": 256,
+    "bev_pixels_per_metre": 4.0,
+    "film_size": 2048,
+    "rgb_width": 256,
+    "rgb_height": 144,
+    "capture_count": 20
+  },
+  "backend": "egl",
+  "seed": 0,
+  "git_commit": "a49856bc060360f8ee6cfaa43dbcf4c1c88c7d3a",
+  "metadrive_commit": "fe54b03327b14bcfc17a9a04b60c8abbee4d7ab1",
+  "display": null,
+  "wayland_display": null,
+  "libgl_always_software": null,
+  "egl_device_index": 1,
+  "msaa_limit": 8,
+  "episodes": [
+    {
+      "seed": 0,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 2.4410826080002153,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8128495599867033
+    },
+    {
+      "seed": 1,
+      "steps": 309,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14783169899965287,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9835331628664563
+    },
+    {
+      "seed": 2,
+      "steps": 445,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14139687399983814,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9866459202866014
+    },
+    {
+      "seed": 3,
+      "steps": 333,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13615713299986965,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9844476573226196
+    },
+    {
+      "seed": 4,
+      "steps": 95,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1394607519996498,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.1760266693514877
+    },
+    {
+      "seed": 5,
+      "steps": 224,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1339427919992886,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.4788130520115545
+    },
+    {
+      "seed": 6,
+      "steps": 393,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.09358978599993861,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9865888349405065
+    },
+    {
+      "seed": 7,
+      "steps": 322,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.0795391669998935,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9839436191667624
+    },
+    {
+      "seed": 8,
+      "steps": 96,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12595788499857008,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.2638387839351829
+    },
+    {
+      "seed": 9,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.15931269900102052,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.7325582855016045
+    },
+    {
+      "seed": 10,
+      "steps": 466,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12672773799931747,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9884968165257983
+    },
+    {
+      "seed": 11,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.12034560100073577,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.7966169156200457
+    },
+    {
+      "seed": 12,
+      "steps": 481,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14608076900003653,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9869373572820759
+    },
+    {
+      "seed": 13,
+      "steps": 91,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.11092550499961362,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.21473253206757187
+    },
+    {
+      "seed": 14,
+      "steps": 283,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.07297394200031704,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.980534433645269
+    },
+    {
+      "seed": 15,
+      "steps": 366,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12089377800111833,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9842868139452569
+    },
+    {
+      "seed": 16,
+      "steps": 86,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.16154846499921405,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.1435435487006479
+    },
+    {
+      "seed": 17,
+      "steps": 92,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.18439843700070924,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.17166913363028444
+    },
+    {
+      "seed": 18,
+      "steps": 419,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12297125600161962,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8558106769350728
+    },
+    {
+      "seed": 19,
+      "steps": 91,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1530088750005234,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.2159670418181689
+    },
+    {
+      "seed": 20,
+      "steps": 309,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.16070387099898653,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.7815245769785559
+    },
+    {
+      "seed": 21,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.17046343000038178,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8406200850473283
+    },
+    {
+      "seed": 22,
+      "steps": 391,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13028811300137022,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.85196559883924
+    },
+    {
+      "seed": 23,
+      "steps": 348,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.09951815100066597,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9838347516660109
+    },
+    {
+      "seed": 24,
+      "steps": 359,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10725619900040329,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.9012608579178168
+    },
+    {
+      "seed": 25,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.12770283200006816,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8546978154476652
+    },
+    {
+      "seed": 26,
+      "steps": 88,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1912988240001141,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.22938967134117647
+    },
+    {
+      "seed": 27,
+      "steps": 445,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.11996860500039475,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9871639666681408
+    },
+    {
+      "seed": 28,
+      "steps": 78,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12777842200011946,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.17488626726511045
+    },
+    {
+      "seed": 29,
+      "steps": 500,
+      "terminated": true,
+      "truncated": true,
+      "reset_seconds": 0.12743696500001533,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9877250156690353
+    },
+    {
+      "seed": 30,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.11613781400046719,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9623079098031502
+    },
+    {
+      "seed": 31,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.1561735380000755,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9097162337382649
+    },
+    {
+      "seed": 32,
+      "steps": 455,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1214997469996888,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9875901384150444
+    },
+    {
+      "seed": 33,
+      "steps": 474,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10159015200042631,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9878489569214238
+    },
+    {
+      "seed": 34,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.14466784100113728,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9397424716465361
+    },
+    {
+      "seed": 35,
+      "steps": 265,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1579299679997348,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.5556389224064365
+    },
+    {
+      "seed": 36,
+      "steps": 81,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.11520751500029291,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.25316468429072625
+    },
+    {
+      "seed": 37,
+      "steps": 199,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14591692199974204,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.41895899767035744
+    },
+    {
+      "seed": 38,
+      "steps": 436,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.15057400699879508,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9840878788034986
+    },
+    {
+      "seed": 39,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.14764606300013838,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9304810445604278
+    },
+    {
+      "seed": 40,
+      "steps": 306,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.17839695200018468,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8099324759386213
+    },
+    {
+      "seed": 41,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.12338637600078073,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8543041241196804
+    },
+    {
+      "seed": 42,
+      "steps": 120,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12191640499986534,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.23588265689342844
+    },
+    {
+      "seed": 43,
+      "steps": 88,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.17805601399959414,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.1860782593781567
+    },
+    {
+      "seed": 44,
+      "steps": 462,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12993186099993181,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9891699712303889
+    },
+    {
+      "seed": 45,
+      "steps": 161,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13924127999962366,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.342061619839949
+    },
+    {
+      "seed": 46,
+      "steps": 422,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.158217923999473,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.9215242648465206
+    },
+    {
+      "seed": 47,
+      "steps": 92,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1881267110002227,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.16889783737156178
+    },
+    {
+      "seed": 48,
+      "steps": 105,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14206318000105966,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.18355605167121997
+    },
+    {
+      "seed": 49,
+      "steps": 488,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.16019239900015236,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9890718218685152
+    },
+    {
+      "seed": 50,
+      "steps": 437,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12595555600091757,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9892942499678402
+    },
+    {
+      "seed": 51,
+      "steps": 97,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10472563600160356,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.29295014300268474
+    },
+    {
+      "seed": 52,
+      "steps": 90,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1624582870008453,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.17955894462620428
+    },
+    {
+      "seed": 53,
+      "steps": 401,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12636509500043758,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9863151059756738
+    },
+    {
+      "seed": 54,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.15740382299918565,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.7925670002278111
+    },
+    {
+      "seed": 55,
+      "steps": 352,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14243850200000452,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.983627904881367
+    },
+    {
+      "seed": 56,
+      "steps": 456,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10129907800001092,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.987236445468626
+    },
+    {
+      "seed": 57,
+      "steps": 464,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10568140400027914,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9881414010469978
+    },
+    {
+      "seed": 58,
+      "steps": 412,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12154051399920718,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8281944927127474
+    },
+    {
+      "seed": 59,
+      "steps": 333,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12973533200056409,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8769248031938491
+    },
+    {
+      "seed": 60,
+      "steps": 98,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10331783999936306,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.29405054297564637
+    },
+    {
+      "seed": 61,
+      "steps": 485,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1402457289987069,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9864526244301935
+    },
+    {
+      "seed": 62,
+      "steps": 432,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.08435182600078406,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9853595773078705
+    },
+    {
+      "seed": 63,
+      "steps": 262,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.127204422999057,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.6120394246480413
+    },
+    {
+      "seed": 64,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.13201942700106883,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9270016937658915
+    },
+    {
+      "seed": 65,
+      "steps": 438,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12371479399917007,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8609628572966093
+    },
+    {
+      "seed": 66,
+      "steps": 478,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1280221769993659,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9866652292649581
+    },
+    {
+      "seed": 67,
+      "steps": 417,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.09158360500077833,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9864330300128248
+    },
+    {
+      "seed": 68,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.15970549600024242,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.6811224972331399
+    },
+    {
+      "seed": 69,
+      "steps": 384,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13397610499850998,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8653964859418488
+    },
+    {
+      "seed": 70,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.14966968500084477,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8600012957479642
+    },
+    {
+      "seed": 71,
+      "steps": 300,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13795344599930104,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.5241248274973448
+    },
+    {
+      "seed": 72,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.177818035999735,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8626332184876984
+    },
+    {
+      "seed": 73,
+      "steps": 412,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14902298499873723,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.9123147895922602
+    },
+    {
+      "seed": 74,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.13059067000176583,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.7835882767380605
+    },
+    {
+      "seed": 75,
+      "steps": 381,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.07810814999902504,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9843283173420214
+    },
+    {
+      "seed": 76,
+      "steps": 476,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.11079523199987307,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9891847585538464
+    },
+    {
+      "seed": 77,
+      "steps": 281,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.10798675099977117,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.6491536352381425
+    },
+    {
+      "seed": 78,
+      "steps": 347,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.11163887299881026,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9821985328809453
+    },
+    {
+      "seed": 79,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.15817710400006035,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9631401404032833
+    },
+    {
+      "seed": 80,
+      "steps": 71,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.22868365599970275,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.08504903865796647
+    },
+    {
+      "seed": 81,
+      "steps": 475,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.15532413899927633,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.8481943260487901
+    },
+    {
+      "seed": 82,
+      "steps": 397,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1682541449990822,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9867812197695529
+    },
+    {
+      "seed": 83,
+      "steps": 260,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1653443729992432,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.5145568436075547
+    },
+    {
+      "seed": 84,
+      "steps": 96,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.17041860000063025,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.21326142276762694
+    },
+    {
+      "seed": 85,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.13843592100056412,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.9301892281830879
+    },
+    {
+      "seed": 86,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.17286051100018085,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.7908911181909908
+    },
+    {
+      "seed": 87,
+      "steps": 418,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.252870977999919,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.986801489218207
+    },
+    {
+      "seed": 88,
+      "steps": 324,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.11024158700092812,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9813114666347453
+    },
+    {
+      "seed": 89,
+      "steps": 244,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.14856268000039563,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.5109386704386589
+    },
+    {
+      "seed": 90,
+      "steps": 403,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.09908689900112222,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9853529193312233
+    },
+    {
+      "seed": 91,
+      "steps": 368,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12299292500028969,
+      "arrive_dest": false,
+      "crash": true,
+      "crash_vehicle": true,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.6822227520764352
+    },
+    {
+      "seed": 92,
+      "steps": 379,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13576645300054224,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9879087450185126
+    },
+    {
+      "seed": 93,
+      "steps": 500,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 0.14454594299968448,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.8791573070298846
+    },
+    {
+      "seed": 94,
+      "steps": 180,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.1721342900000309,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.3670704820731353
+    },
+    {
+      "seed": 95,
+      "steps": 120,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.12968231699960597,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.25061405900646055
+    },
+    {
+      "seed": 96,
+      "steps": 419,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13135908599906543,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.9178820442441968
+    },
+    {
+      "seed": 97,
+      "steps": 170,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.2094766209993395,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": true,
+      "max_step": false,
+      "route_completion": 0.34923999369664255
+    },
+    {
+      "seed": 98,
+      "steps": 377,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.13568933399983507,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9859944538897014
+    },
+    {
+      "seed": 99,
+      "steps": 296,
+      "terminated": true,
+      "truncated": false,
+      "reset_seconds": 0.09606689300017024,
+      "arrive_dest": true,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": false,
+      "route_completion": 0.9806969296556378
+    }
+  ],
+  "image_checks": [
+    {
+      "seed": 0,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 235.30797831217447,
+        "std": 32.48081165925199,
+        "unique_colors": 295
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.06528501157408,
+        "std": 34.85957650065134,
+        "unique_colors": 6590
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 5,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 233.67414347330728,
+        "std": 34.036491533634816,
+        "unique_colors": 289
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 184.54969618055554,
+        "std": 31.20033160371856,
+        "unique_colors": 6194
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 10,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 233.4883015950521,
+        "std": 34.54645739250163,
+        "unique_colors": 34
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.79078052662038,
+        "std": 34.500994774156915,
+        "unique_colors": 6432
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 15,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 220.06143697102866,
+        "std": 36.713740439994275,
+        "unique_colors": 313
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 195.88725224247685,
+        "std": 25.343720591739846,
+        "unique_colors": 4888
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 20,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 233.44149780273438,
+        "std": 35.3457202748894,
+        "unique_colors": 14
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 184.6643970630787,
+        "std": 39.202445507046704,
+        "unique_colors": 6389
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 26,
+      "step": 88,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 210.5075480143229,
+        "std": 36.03001302774443,
+        "unique_colors": 370
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 164.9469310619213,
+        "std": 54.259656053560256,
+        "unique_colors": 6667
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 31,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 232.77865600585938,
+        "std": 35.760256386794524,
+        "unique_colors": 5
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.0543258101852,
+        "std": 35.48981233550166,
+        "unique_colors": 6401
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 36,
+      "step": 81,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 213.25514221191406,
+        "std": 36.5058971014169,
+        "unique_colors": 368
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 175.91349283854166,
+        "std": 46.88226403843178,
+        "unique_colors": 6258
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 41,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 234.71444193522134,
+        "std": 32.684975786731194,
+        "unique_colors": 287
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 184.37522605613427,
+        "std": 34.42772790048764,
+        "unique_colors": 6744
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 46,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 233.89317830403647,
+        "std": 34.614601201028755,
+        "unique_colors": 72
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 187.11481843171296,
+        "std": 37.19639784661438,
+        "unique_colors": 6417
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 52,
+      "step": 90,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 232.92829386393228,
+        "std": 35.037026798829906,
+        "unique_colors": 402
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 182.07380280671296,
+        "std": 33.78996524852335,
+        "unique_colors": 6740
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 57,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 232.94990030924478,
+        "std": 34.853099989644726,
+        "unique_colors": 153
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.09535951967592,
+        "std": 35.23209005208412,
+        "unique_colors": 6489
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 62,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 233.8621826171875,
+        "std": 33.47726684068235,
+        "unique_colors": 315
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 184.75358977141204,
+        "std": 30.659388182429385,
+        "unique_colors": 6011
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 67,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 234.7810821533203,
+        "std": 32.390609340839376,
+        "unique_colors": 353
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 191.84690574363427,
+        "std": 30.07038439977401,
+        "unique_colors": 5836
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 72,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 235.9289805094401,
+        "std": 33.221883897766254,
+        "unique_colors": 302
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.57581922743054,
+        "std": 33.839528386512775,
+        "unique_colors": 6534
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 78,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 233.96721394856772,
+        "std": 34.07311246582392,
+        "unique_colors": 60
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 189.05003978587962,
+        "std": 33.980797236084996,
+        "unique_colors": 6350
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 83,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 234.59274291992188,
+        "std": 32.976416352744494,
+        "unique_colors": 342
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 183.27061631944446,
+        "std": 35.692723026154376,
+        "unique_colors": 7060
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 88,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 226.84727478027344,
+        "std": 36.45067793882087,
+        "unique_colors": 46
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 187.2970287181713,
+        "std": 34.18606271941792,
+        "unique_colors": 6542
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 93,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 234.11314900716147,
+        "std": 34.19787454281608,
+        "unique_colors": 31
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.59673394097223,
+        "std": 34.86048545795236,
+        "unique_colors": 6452
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    },
+    {
+      "seed": 99,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 225.71918741861978,
+        "std": 36.90131313240358,
+        "unique_colors": 19
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 187.88768627025462,
+        "std": 34.50243187875292,
+        "unique_colors": 6406
+      },
+      "camera_parent_is_ego": true,
+      "effective_bev_pixels_per_metre": 4.0
+    }
+  ],
+  "completed_without_exception": true,
+  "msaa_adjustments": [
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 8
+    },
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 8
+    }
+  ],
+  "graphics": {
+    "vendor": "AMD",
+    "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+    "version": "4.6 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4",
+    "pipe": "eglGraphicsPipe"
+  },
+  "initial_state": {
+    "position_m": [
+      5.0,
+      7.0
+    ],
+    "heading_rad": 0.0,
+    "speed_m_s": 0.0,
+    "velocity_m_s": [
+      0.0,
+      0.0
+    ],
+    "current_lane_index": [
+      ">",
+      ">>",
+      0
+    ],
+    "reference_lanes": 3,
+    "next_reference_lanes": 3,
+    "checkpoints": [
+      ">",
+      ">>",
+      ">>>",
+      "1C0_0_",
+      "1C0_1_",
+      "2C0_0_",
+      "2C0_1_",
+      "3C0_0_",
+      "3C0_1_"
+    ],
+    "lane_length_m": 10.0,
+    "lane_coordinates_m": [
+      5.0,
+      0.0
+    ],
+    "reference_point_10m": [
+      10.0,
+      7.0
+    ],
+    "reference_heading_rad": 0.0,
+    "destination_m": [
+      12.199984209113325,
+      -329.53620675688126
+    ],
+    "route_completion": 0.009952108287938272,
+    "dynamics": {
+      "max_engine_force": 759.463623046875,
+      "max_brake_force": 89.463623046875,
+      "wheel_friction": 0.8999999761581421,
+      "max_steering": 40.0,
+      "mass": 1100
+    },
+    "dimensions_m": [
+      4.515,
+      1.852,
+      1.19
+    ]
+  },
+  "final_state": {
+    "position_m": [
+      198.97317504882812,
+      -40.27543258666992
+    ],
+    "heading_rad": -1.5713979348851455,
+    "speed_m_s": 8.333317990714999,
+    "velocity_m_s": [
+      -0.005974119994789362,
+      -8.3333158493042
+    ],
+    "current_lane_index": [
+      "3T0_0_",
+      "3T0_1_",
+      0
+    ],
+    "reference_lanes": 3,
+    "next_reference_lanes": 0,
+    "checkpoints": [
+      ">",
+      ">>",
+      ">>>",
+      "1T1_0_",
+      "1T1_1_",
+      "2S0_0_",
+      "3T0_0_",
+      "3T0_1_"
+    ],
+    "lane_length_m": 35.0,
+    "lane_coordinates_m": [
+      30.275432586669922,
+      0.07819747924804688
+    ],
+    "reference_point_10m": [
+      199.05137252807617,
+      -45.0
+    ],
+    "reference_heading_rad": -1.5707963267948966,
+    "destination_m": [
+      192.05137252807617,
+      -45.0
+    ],
+    "route_completion": 0.9806969296556378,
+    "dynamics": {
+      "max_engine_force": 815.3001708984375,
+      "max_brake_force": 145.30018615722656,
+      "wheel_friction": 0.8999999761581421,
+      "max_steering": 40.0,
+      "mass": 1100
+    },
+    "dimensions_m": [
+      4.515,
+      1.852,
+      1.19
+    ]
+  },
+  "total_steps": 34494,
+  "elapsed_seconds": 385.6300687290004,
+  "step_seconds": 221.75785181609717,
+  "bev_seconds": 121.74826047317583,
+  "rgb_seconds": 13.04550858397306,
+  "steps_per_second_step_only": 155.54804358677558,
+  "steps_per_second_with_extraction": 96.7433549047379,
+  "steps_per_second_end_to_end": 89.44841908642887
+}

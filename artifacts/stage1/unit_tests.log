@@ -1,0 +1,9 @@
+test_invalid_simulation_config (test_stage1.ImageSmokeTests.test_invalid_simulation_config) ... ok
+test_msaa_adapter_does_not_mutate_callers_properties (test_stage1.ImageSmokeTests.test_msaa_adapter_does_not_mutate_callers_properties) ... ok
+test_rejects_black_frame_wrong_shape_and_float (test_stage1.ImageSmokeTests.test_rejects_black_frame_wrong_shape_and_float) ... ok
+test_valid_semantic_image (test_stage1.ImageSmokeTests.test_valid_semantic_image) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.028s
+
+OK

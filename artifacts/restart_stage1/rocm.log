@@ -1,0 +1,22 @@
+/home/auronox/Desktop/mini-wa-jepa/scripts/check_rocm.py:60: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  report["bf16_relative_l2"] = float((mixed.float() - out.detach()).norm() / out.detach().norm())
+{
+  "torch": "2.9.1+rocm6.4",
+  "hip": "6.4.43484-123eb5128",
+  "cuda_build": null,
+  "available": true,
+  "device": "Radeon RX 7900 XT",
+  "memory_bytes": 21458059264,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "seed": 0,
+  "sdpa_backend": "MATH",
+  "forbidden_packages": [],
+  "git_commit": "b1a332279c3c9ce6908ae820435b309f9a84cd6f",
+  "matmul_ms_first_call": 78.47087200025271,
+  "matmul_relative_l2": 4.0531305126139037e-07,
+  "sdpa_fp32_max_abs": 3.5762786865234375e-07,
+  "bf16_relative_l2": 0.0032015335746109486,
+  "bf16_finite_forward_backward": true,
+  "triton_imported": false
+}

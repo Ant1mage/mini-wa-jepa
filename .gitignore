@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments (note: env/ is a Python module in this repo, so only ignore venv/.venv)
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependency & test caches
+.deps/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Core dumps and logs
+core
+core.*
+*.log
+raw.log
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Marimo temporary sessions
+scripts/__marimo__/
+__marimo__/
+.marimo/
+
+# Datasets, videos, and generated runtime outputs
+outputs/
+
+# Machine Learning weights, checkpoints, and models (>100MB violates GitHub limits)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Data arrays and numpy dumps (large intermediate arrays)
+*.npy
+*.npz
+
+# Rerun recording files (often hundreds of MBs)
+*.rrd
+artifacts/rerun_review/
+
+# TensorBoard event logs
+*events.out.tfevents*
+
+# Compressed archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Large step evaluation sample dumps & heavy intermediate visualization
+artifacts/**/samples/
+artifacts/**/tensorboard/
+artifacts/stage1/desktop/
+
+# Video files (heavy binaries)
+*.mp4
+*.avi
+*.mov

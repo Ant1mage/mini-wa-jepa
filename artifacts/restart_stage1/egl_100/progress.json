@@ -1,0 +1,4187 @@
+{
+  "spec": {
+    "size": 128,
+    "extent_m": 64.0,
+    "height_m": 50.0
+  },
+  "episodes": [
+    {
+      "seed": 0,
+      "steps": 500,
+      "reset_seconds": 6.510022301999925,
+      "pipeline_seconds": 3.7580652049746277,
+      "pipeline_fps": 133.04718591315014,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6297407488,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3245551616,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 1,
+      "steps": 309,
+      "reset_seconds": 3.278747566000675,
+      "pipeline_seconds": 1.5677505000003293,
+      "pipeline_fps": 197.09768869468394,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6297952256,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3243454464,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 2,
+      "steps": 445,
+      "reset_seconds": 3.2562456140003633,
+      "pipeline_seconds": 2.616213230034191,
+      "pipeline_fps": 170.0931693530899,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6298316800,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3245551616,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 3,
+      "steps": 333,
+      "reset_seconds": 3.265917464999802,
+      "pipeline_seconds": 1.548106892978467,
+      "pipeline_fps": 215.10142581907087,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6298341376,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3260891136,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 4,
+      "steps": 95,
+      "reset_seconds": 3.2805924719996256,
+      "pipeline_seconds": 0.46638680398427823,
+      "pipeline_fps": 203.69358478504984,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6298488832,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3252682752,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 5,
+      "steps": 224,
+      "reset_seconds": 3.2540232349983853,
+      "pipeline_seconds": 1.4827581000190548,
+      "pipeline_fps": 151.06982049001883,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6299082752,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3262197760,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 6,
+      "steps": 393,
+      "reset_seconds": 3.208666579999772,
+      "pipeline_seconds": 2.4122092420002446,
+      "pipeline_fps": 162.92118990229793,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6299103232,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3323551744,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 7,
+      "steps": 322,
+      "reset_seconds": 3.2127540050005337,
+      "pipeline_seconds": 1.5146682350332412,
+      "pipeline_fps": 212.58780804427005,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6299107328,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3232047104,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 8,
+      "steps": 96,
+      "reset_seconds": 3.3042831200000364,
+      "pipeline_seconds": 0.5355188549965533,
+      "pipeline_fps": 179.26539673494386,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6299107328,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3294744576,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 9,
+      "steps": 500,
+      "reset_seconds": 3.3436736170006043,
+      "pipeline_seconds": 4.639130203968307,
+      "pipeline_fps": 107.77882448142985,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6300176384,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3392999424,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 10,
+      "steps": 466,
+      "reset_seconds": 3.323236406000433,
+      "pipeline_seconds": 2.5548099910010933,
+      "pipeline_fps": 182.40104025012033,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6300180480,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3354148864,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 11,
+      "steps": 500,
+      "reset_seconds": 3.2939222479999444,
+      "pipeline_seconds": 4.108432863986309,
+      "pipeline_fps": 121.70090556496586,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6300180480,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3268071424,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 12,
+      "steps": 481,
+      "reset_seconds": 3.3284416750011587,
+      "pipeline_seconds": 3.891665864004608,
+      "pipeline_fps": 123.597455899012,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6300360704,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3248807936,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 13,
+      "steps": 91,
+      "reset_seconds": 3.2966623949996574,
+      "pipeline_seconds": 0.5109319579969451,
+      "pipeline_fps": 178.10590740253537,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6300364800,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3254640640,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 14,
+      "steps": 283,
+      "reset_seconds": 3.2747863160002453,
+      "pipeline_seconds": 1.0279993140211445,
+      "pipeline_fps": 275.29201249464944,
+      "max_calibration_error_pixel": 6.866455078125e-05,
+      "memory": {
+        "rss_bytes": 6300364800,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3243470848,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 15,
+      "steps": 366,
+      "reset_seconds": 3.3434838709999894,
+      "pipeline_seconds": 1.7761350149830832,
+      "pipeline_fps": 206.0654155863742,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6300422144,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3243474944,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 16,
+      "steps": 86,
+      "reset_seconds": 3.330089192999367,
+      "pipeline_seconds": 0.5361354260166991,
+      "pipeline_fps": 160.407232625813,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6300700672,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3345231872,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 17,
+      "steps": 92,
+      "reset_seconds": 3.36444110299999,
+      "pipeline_seconds": 0.5375560960146686,
+      "pipeline_fps": 171.1449292121683,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6301069312,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3265294336,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 18,
+      "steps": 419,
+      "reset_seconds": 3.2747290000006615,
+      "pipeline_seconds": 2.8965950240199163,
+      "pipeline_fps": 144.65259952649808,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6301073408,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3274870784,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 19,
+      "steps": 91,
+      "reset_seconds": 3.340031583000382,
+      "pipeline_seconds": 0.4444822089990339,
+      "pipeline_fps": 204.7326038199153,
+      "max_calibration_error_pixel": 7.62939453125e-06,
+      "memory": {
+        "rss_bytes": 6301097984,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3313369088,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 20,
+      "steps": 309,
+      "reset_seconds": 3.3098306779993436,
+      "pipeline_seconds": 2.286039329990672,
+      "pipeline_fps": 135.1682781421179,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6301351936,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3306070016,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 21,
+      "steps": 500,
+      "reset_seconds": 3.329146681000566,
+      "pipeline_seconds": 4.209424114016656,
+      "pipeline_fps": 118.78109367385584,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6302543872,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3331440640,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 22,
+      "steps": 391,
+      "reset_seconds": 3.323485855000399,
+      "pipeline_seconds": 2.743274872967959,
+      "pipeline_fps": 142.53037632243382,
+      "max_calibration_error_pixel": 4.57763671875e-05,
+      "memory": {
+        "rss_bytes": 6302552064,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3429658624,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 23,
+      "steps": 348,
+      "reset_seconds": 3.327445594000892,
+      "pipeline_seconds": 1.6798016709999501,
+      "pipeline_fps": 207.16731386083396,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6302568448,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3358728192,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 24,
+      "steps": 359,
+      "reset_seconds": 3.2258789770003204,
+      "pipeline_seconds": 2.046106104995488,
+      "pipeline_fps": 175.4552215662304,
+      "max_calibration_error_pixel": 7.62939453125e-05,
+      "memory": {
+        "rss_bytes": 6302605312,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3269001216,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 25,
+      "steps": 500,
+      "reset_seconds": 3.2508988109984784,
+      "pipeline_seconds": 4.073372186994675,
+      "pipeline_fps": 122.7484199937298,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6302613504,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3241754624,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 26,
+      "steps": 88,
+      "reset_seconds": 3.3365008149994537,
+      "pipeline_seconds": 0.40772072500658396,
+      "pipeline_fps": 215.83401235877562,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6302695424,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3233038336,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 27,
+      "steps": 445,
+      "reset_seconds": 3.2393697379993682,
+      "pipeline_seconds": 2.872672423009135,
+      "pipeline_fps": 154.90802098968905,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6302695424,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3271380992,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 28,
+      "steps": 78,
+      "reset_seconds": 3.2612577449999662,
+      "pipeline_seconds": 0.4208683879915043,
+      "pipeline_fps": 185.33109690712746,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6302699520,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3256676352,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 29,
+      "steps": 500,
+      "reset_seconds": 3.258391990000746,
+      "pipeline_seconds": 3.4602640029934264,
+      "pipeline_fps": 144.49764514136984,
+      "max_calibration_error_pixel": 0.00018310546875,
+      "memory": {
+        "rss_bytes": 6302707712,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3204870144,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 30,
+      "steps": 500,
+      "reset_seconds": 3.2311177129995485,
+      "pipeline_seconds": 3.5539348339971184,
+      "pipeline_fps": 140.68913003608705,
+      "max_calibration_error_pixel": 0.000152587890625,
+      "memory": {
+        "rss_bytes": 6302707712,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3206197248,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 31,
+      "steps": 500,
+      "reset_seconds": 3.2595362209995073,
+      "pipeline_seconds": 3.8605462459890987,
+      "pipeline_fps": 129.51535045577378,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303014912,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3207753728,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 32,
+      "steps": 455,
+      "reset_seconds": 3.247874373000741,
+      "pipeline_seconds": 2.7163690560082614,
+      "pipeline_fps": 167.50301252092314,
+      "max_calibration_error_pixel": 4.57763671875e-05,
+      "memory": {
+        "rss_bytes": 6303019008,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3204878336,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 33,
+      "steps": 474,
+      "reset_seconds": 3.229672262999884,
+      "pipeline_seconds": 2.9151651700158254,
+      "pipeline_fps": 162.59799097333027,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6303019008,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3213852672,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 34,
+      "steps": 500,
+      "reset_seconds": 3.2538859140004206,
+      "pipeline_seconds": 3.153706606986816,
+      "pipeline_fps": 158.54360037559772,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6303023104,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3209854976,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 35,
+      "steps": 265,
+      "reset_seconds": 3.2744077629995445,
+      "pipeline_seconds": 2.15253471100732,
+      "pipeline_fps": 123.11067442716785,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6303027200,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3285241856,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 36,
+      "steps": 81,
+      "reset_seconds": 3.263317883000127,
+      "pipeline_seconds": 0.3539362100073049,
+      "pipeline_fps": 228.85479843480337,
+      "max_calibration_error_pixel": 7.62939453125e-06,
+      "memory": {
+        "rss_bytes": 6303031296,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3363299328,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 37,
+      "steps": 199,
+      "reset_seconds": 3.3575374569991254,
+      "pipeline_seconds": 1.0982272419969377,
+      "pipeline_fps": 181.2011142959381,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6303047680,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3416215552,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 38,
+      "steps": 436,
+      "reset_seconds": 3.288153694000357,
+      "pipeline_seconds": 3.078688286977922,
+      "pipeline_fps": 141.61875427407526,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303051776,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3468562432,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 39,
+      "steps": 500,
+      "reset_seconds": 3.373951968000256,
+      "pipeline_seconds": 3.2196347000190144,
+      "pipeline_fps": 155.29712112900484,
+      "max_calibration_error_pixel": 7.62939453125e-05,
+      "memory": {
+        "rss_bytes": 6303055872,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3251765248,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 40,
+      "steps": 306,
+      "reset_seconds": 3.2957072659992264,
+      "pipeline_seconds": 1.8919877959961013,
+      "pipeline_fps": 161.73465846215774,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303055872,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3179233280,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 41,
+      "steps": 500,
+      "reset_seconds": 3.315253456999926,
+      "pipeline_seconds": 3.913584240965065,
+      "pipeline_fps": 127.76012197879844,
+      "max_calibration_error_pixel": 4.57763671875e-05,
+      "memory": {
+        "rss_bytes": 6303121408,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3196006400,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 42,
+      "steps": 120,
+      "reset_seconds": 3.302865870999085,
+      "pipeline_seconds": 0.6642981300028623,
+      "pipeline_fps": 180.64178503631035,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6303121408,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3408273408,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 43,
+      "steps": 88,
+      "reset_seconds": 3.360601766999025,
+      "pipeline_seconds": 0.49390140100513236,
+      "pipeline_fps": 178.17321396722573,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6303313920,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3295186944,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 44,
+      "steps": 462,
+      "reset_seconds": 3.254373748999569,
+      "pipeline_seconds": 2.7312399829934293,
+      "pipeline_fps": 169.15393845898873,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303330304,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3200245760,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 45,
+      "steps": 161,
+      "reset_seconds": 3.2456027629996242,
+      "pipeline_seconds": 1.021799694002766,
+      "pipeline_fps": 157.56512841504548,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6303330304,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3177074688,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 46,
+      "steps": 422,
+      "reset_seconds": 3.248719869001434,
+      "pipeline_seconds": 2.945402213019406,
+      "pipeline_fps": 143.27415051657653,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303334400,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3219668992,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 47,
+      "steps": 92,
+      "reset_seconds": 3.395304446999944,
+      "pipeline_seconds": 0.5899107370169077,
+      "pipeline_fps": 155.95579844033784,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6303334400,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3302383616,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 48,
+      "steps": 105,
+      "reset_seconds": 3.2663759529987146,
+      "pipeline_seconds": 0.4432976440020866,
+      "pipeline_fps": 236.86117312075262,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6303334400,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3381014528,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 49,
+      "steps": 488,
+      "reset_seconds": 3.291699879000589,
+      "pipeline_seconds": 2.8924569330101804,
+      "pipeline_fps": 168.71469871537147,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6303338496,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3367014400,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 50,
+      "steps": 437,
+      "reset_seconds": 3.2439717300003394,
+      "pipeline_seconds": 2.8238958670135617,
+      "pipeline_fps": 154.75074881644045,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6303338496,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3259076608,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 51,
+      "steps": 97,
+      "reset_seconds": 3.2200309300005756,
+      "pipeline_seconds": 0.41360610298943357,
+      "pipeline_fps": 234.52265162170025,
+      "max_calibration_error_pixel": 7.62939453125e-06,
+      "memory": {
+        "rss_bytes": 6303338496,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3251163136,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 52,
+      "steps": 90,
+      "reset_seconds": 3.2669428949993744,
+      "pipeline_seconds": 0.6889345000072353,
+      "pipeline_fps": 130.63651188763924,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6303436800,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3240677376,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 53,
+      "steps": 401,
+      "reset_seconds": 3.2333861550014262,
+      "pipeline_seconds": 1.95849804001773,
+      "pipeline_fps": 204.74873694352524,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6303436800,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3236888576,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 54,
+      "steps": 500,
+      "reset_seconds": 3.2502084330008074,
+      "pipeline_seconds": 3.6750863899960677,
+      "pipeline_fps": 136.0512235470293,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303539200,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3222929408,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 55,
+      "steps": 352,
+      "reset_seconds": 3.2371997569989617,
+      "pipeline_seconds": 2.227392268985568,
+      "pipeline_fps": 158.03233444835158,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303539200,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3304521728,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 56,
+      "steps": 456,
+      "reset_seconds": 3.2206381160012825,
+      "pipeline_seconds": 3.2896847520078154,
+      "pipeline_fps": 138.61510581574314,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6303543296,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3302424576,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 57,
+      "steps": 464,
+      "reset_seconds": 3.21818073599934,
+      "pipeline_seconds": 3.346931347005011,
+      "pipeline_fps": 138.63445403958127,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6303543296,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3220815872,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 58,
+      "steps": 412,
+      "reset_seconds": 3.21052744500048,
+      "pipeline_seconds": 2.974458370999855,
+      "pipeline_fps": 138.51261258751705,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6303547392,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3229224960,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 59,
+      "steps": 333,
+      "reset_seconds": 3.2556794620013534,
+      "pipeline_seconds": 2.1442339130262553,
+      "pipeline_fps": 155.30022073479003,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303547392,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3242573824,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 60,
+      "steps": 98,
+      "reset_seconds": 3.2328376039986324,
+      "pipeline_seconds": 0.385611992000122,
+      "pipeline_fps": 254.14147389889524,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6303551488,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3264012288,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 61,
+      "steps": 485,
+      "reset_seconds": 3.3348876220006787,
+      "pipeline_seconds": 3.1670831029878173,
+      "pipeline_fps": 153.13775617142863,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6303551488,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3442335744,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 62,
+      "steps": 432,
+      "reset_seconds": 3.2090032689993677,
+      "pipeline_seconds": 2.3953611650067614,
+      "pipeline_fps": 180.34858638896762,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6303555584,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3303575552,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 63,
+      "steps": 262,
+      "reset_seconds": 3.2487120630012214,
+      "pipeline_seconds": 1.9397488269896712,
+      "pipeline_fps": 135.0690338638339,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6303555584,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3320578048,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 64,
+      "steps": 500,
+      "reset_seconds": 3.2406903939991025,
+      "pipeline_seconds": 3.4882659960130695,
+      "pipeline_fps": 143.3376928741895,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303555584,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3295850496,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 65,
+      "steps": 438,
+      "reset_seconds": 3.2140393760000734,
+      "pipeline_seconds": 3.19328207399667,
+      "pipeline_fps": 137.16295330334063,
+      "max_calibration_error_pixel": 0.0001068115234375,
+      "memory": {
+        "rss_bytes": 6303567872,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3284189184,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 66,
+      "steps": 478,
+      "reset_seconds": 3.2403053029993316,
+      "pipeline_seconds": 3.631169378006234,
+      "pipeline_fps": 131.63803453929086,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6303567872,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3463049216,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 67,
+      "steps": 417,
+      "reset_seconds": 3.2089226150001195,
+      "pipeline_seconds": 2.2449633790110965,
+      "pipeline_fps": 185.74913243515266,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6303571968,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3397201920,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 68,
+      "steps": 500,
+      "reset_seconds": 3.2723822989992186,
+      "pipeline_seconds": 4.435718659007762,
+      "pipeline_fps": 112.721305934188,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304034816,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3320246272,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 69,
+      "steps": 384,
+      "reset_seconds": 3.2729852049997135,
+      "pipeline_seconds": 2.1657577810019575,
+      "pipeline_fps": 177.30514620261357,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304043008,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3400945664,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 70,
+      "steps": 500,
+      "reset_seconds": 3.3521226849989034,
+      "pipeline_seconds": 4.1042584820042975,
+      "pipeline_fps": 121.82468579703759,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304059392,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3295809536,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 71,
+      "steps": 300,
+      "reset_seconds": 3.329549121999662,
+      "pipeline_seconds": 2.086792437987242,
+      "pipeline_fps": 143.76130301169613,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304124928,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3476881408,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 72,
+      "steps": 500,
+      "reset_seconds": 3.348583561999476,
+      "pipeline_seconds": 3.6774686600201676,
+      "pipeline_fps": 135.96308934887236,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6304374784,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3298312192,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 73,
+      "steps": 412,
+      "reset_seconds": 3.2702714009992633,
+      "pipeline_seconds": 3.2940149850110174,
+      "pipeline_fps": 125.07532657706534,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6304374784,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3313823744,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 74,
+      "steps": 500,
+      "reset_seconds": 3.2297022420007124,
+      "pipeline_seconds": 3.992389803981496,
+      "pipeline_fps": 125.23827194963887,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304378880,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3254128640,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 75,
+      "steps": 381,
+      "reset_seconds": 3.2087718780003343,
+      "pipeline_seconds": 2.149099246978949,
+      "pipeline_fps": 177.28357614734765,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304378880,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3256729600,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 76,
+      "steps": 476,
+      "reset_seconds": 3.219603374000144,
+      "pipeline_seconds": 2.7062111439718137,
+      "pipeline_fps": 175.89167092904327,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6304378880,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3254632448,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 77,
+      "steps": 281,
+      "reset_seconds": 3.1995521490007377,
+      "pipeline_seconds": 1.7856167199824995,
+      "pipeline_fps": 157.36859811816393,
+      "max_calibration_error_pixel": 4.57763671875e-05,
+      "memory": {
+        "rss_bytes": 6304382976,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3256225792,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 78,
+      "steps": 347,
+      "reset_seconds": 3.228087700001197,
+      "pipeline_seconds": 1.8803116899871384,
+      "pipeline_fps": 184.54387208663982,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6304382976,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3410919424,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 79,
+      "steps": 500,
+      "reset_seconds": 3.327677796998614,
+      "pipeline_seconds": 3.7974614789927728,
+      "pipeline_fps": 131.66690505379887,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6304387072,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3390193664,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 80,
+      "steps": 71,
+      "reset_seconds": 3.372729619999518,
+      "pipeline_seconds": 0.39366365499699896,
+      "pipeline_fps": 180.35701060729434,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6305853440,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3252715520,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 81,
+      "steps": 475,
+      "reset_seconds": 3.3167013470010716,
+      "pipeline_seconds": 3.7724600059937075,
+      "pipeline_fps": 125.91253432649177,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6305873920,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3259006976,
+            "process_vram_bytes": 956604416
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 82,
+      "steps": 397,
+      "reset_seconds": 3.3327023739984725,
+      "pipeline_seconds": 2.2359319750230497,
+      "pipeline_fps": 177.55459666697035,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6305878016,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3248521216,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 83,
+      "steps": 260,
+      "reset_seconds": 3.434021369999755,
+      "pipeline_seconds": 1.6993392720069096,
+      "pipeline_fps": 153.00064223958148,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6305882112,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3242422272,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 84,
+      "steps": 96,
+      "reset_seconds": 3.3533092720008426,
+      "pipeline_seconds": 0.4855736549998255,
+      "pipeline_fps": 197.70430090576988,
+      "max_calibration_error_pixel": 3.814697265625e-05,
+      "memory": {
+        "rss_bytes": 6305882112,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3252711424,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 85,
+      "steps": 500,
+      "reset_seconds": 3.3223343739991833,
+      "pipeline_seconds": 4.342047530031778,
+      "pipeline_fps": 115.15304623953315,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6305886208,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3252695040,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 86,
+      "steps": 500,
+      "reset_seconds": 3.432638804000817,
+      "pipeline_seconds": 3.4600514650119294,
+      "pipeline_fps": 144.506521089644,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6305898496,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3250085888,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 87,
+      "steps": 418,
+      "reset_seconds": 3.4346609709991753,
+      "pipeline_seconds": 2.582346854003845,
+      "pipeline_fps": 161.86826310799597,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6307405824,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3260370944,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 88,
+      "steps": 324,
+      "reset_seconds": 3.2837736649998988,
+      "pipeline_seconds": 1.4463105690083466,
+      "pipeline_fps": 224.01827584109301,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6307196928,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3258273792,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 89,
+      "steps": 244,
+      "reset_seconds": 3.330373057999168,
+      "pipeline_seconds": 1.9938362989960297,
+      "pipeline_fps": 122.37714807522715,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6307409920,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3269054464,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 90,
+      "steps": 403,
+      "reset_seconds": 3.289004535001368,
+      "pipeline_seconds": 2.9968221740091394,
+      "pipeline_fps": 134.47578020983067,
+      "max_calibration_error_pixel": 0.0001220703125,
+      "memory": {
+        "rss_bytes": 6307201024,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3276439552,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 91,
+      "steps": 368,
+      "reset_seconds": 3.284501536998505,
+      "pipeline_seconds": 2.88183740002205,
+      "pipeline_fps": 127.69630930502335,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6307414016,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3266428928,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": true,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 92,
+      "steps": 379,
+      "reset_seconds": 3.2907355629995436,
+      "pipeline_seconds": 2.398194588986371,
+      "pipeline_fps": 158.03554963410596,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6307205120,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3273539584,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 93,
+      "steps": 500,
+      "reset_seconds": 3.289032472999679,
+      "pipeline_seconds": 4.017600463987037,
+      "pipeline_fps": 124.45239502581192,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6307418112,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3280154624,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": true
+    },
+    {
+      "seed": 94,
+      "steps": 180,
+      "reset_seconds": 3.3279098790007993,
+      "pipeline_seconds": 1.0650151050103887,
+      "pipeline_fps": 169.01168739596815,
+      "max_calibration_error_pixel": 1.52587890625e-05,
+      "memory": {
+        "rss_bytes": 6307209216,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3265933312,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 95,
+      "steps": 120,
+      "reset_seconds": 3.286300564999692,
+      "pipeline_seconds": 0.6661068069843168,
+      "pipeline_fps": 180.1512891652905,
+      "max_calibration_error_pixel": 2.288818359375e-05,
+      "memory": {
+        "rss_bytes": 6307418112,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3418656768,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 96,
+      "steps": 419,
+      "reset_seconds": 3.3027581940004893,
+      "pipeline_seconds": 2.2351943439862225,
+      "pipeline_fps": 187.45573561749433,
+      "max_calibration_error_pixel": 9.1552734375e-05,
+      "memory": {
+        "rss_bytes": 6307213312,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3508531200,
+            "process_vram_bytes": 948215808
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 97,
+      "steps": 170,
+      "reset_seconds": 3.3256018800002494,
+      "pipeline_seconds": 1.1177815679875494,
+      "pipeline_fps": 152.08695944599222,
+      "max_calibration_error_pixel": 3.0517578125e-05,
+      "memory": {
+        "rss_bytes": 6307422208,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3552481280,
+            "process_vram_bytes": 954507264
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": false,
+      "crash": false,
+      "out_of_road": true,
+      "max_step": false
+    },
+    {
+      "seed": 98,
+      "steps": 377,
+      "reset_seconds": 3.299923290998777,
+      "pipeline_seconds": 2.263969310984976,
+      "pipeline_fps": 166.52169186691853,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6307213312,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3285291008,
+            "process_vram_bytes": 950312960
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    },
+    {
+      "seed": 99,
+      "steps": 296,
+      "reset_seconds": 3.2733147030012333,
+      "pipeline_seconds": 1.424701931005984,
+      "pipeline_fps": 207.76275623561062,
+      "max_calibration_error_pixel": 6.103515625e-05,
+      "memory": {
+        "rss_bytes": 6307426304,
+        "devices": [
+          {
+            "path": "/sys/class/drm/card1/device",
+            "pci": "0000:03:00.0",
+            "total_bytes": 21458059264,
+            "device_used_bytes": 3533668352,
+            "process_vram_bytes": 952410112
+          },
+          {
+            "path": "/sys/class/drm/card2/device",
+            "pci": "0000:13:00.0",
+            "total_bytes": 536870912,
+            "device_used_bytes": 16617472,
+            "process_vram_bytes": 61440
+          }
+        ],
+        "drm_client_count": 3
+      },
+      "arrive_dest": true,
+      "crash": false,
+      "out_of_road": false,
+      "max_step": false
+    }
+  ],
+  "samples": [
+    {
+      "seed": 0,
+      "step": 100,
+      "file": "seed_000_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.500003814697266,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.500003814697266,
+            43.5
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 3.814697265625e-06
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 0.0
+        }
+      },
+      "channel_pixels": [
+        5641,
+        629,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 5,
+      "step": 100,
+      "file": "seed_005_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49999237060547,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.5,
+            43.500030517578125
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 3.0517578125e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.500003814697266,
+            63.50000762939453
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        }
+      },
+      "channel_pixels": [
+        5962,
+        388,
+        51,
+        16384
+      ]
+    },
+    {
+      "seed": 10,
+      "step": 100,
+      "file": "seed_010_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49999284744263,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.499990940093994,
+            43.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.4999942779541,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        6145,
+        0,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 15,
+      "step": 100,
+      "file": "seed_015_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.50001525878906,
+            63.50000762939453
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50001525878906,
+            43.50000762939453
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.50001525878906,
+            63.50000762939453
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        8806,
+        679,
+        31,
+        16384
+      ]
+    },
+    {
+      "seed": 20,
+      "step": 100,
+      "file": "seed_020_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.50000286102295,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50000190734863,
+            43.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.500003814697266,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        6008,
+        0,
+        82,
+        16384
+      ]
+    },
+    {
+      "seed": 26,
+      "step": 88,
+      "file": "seed_026_step_088.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49999237060547,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.4999885559082,
+            43.500030517578125
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 3.0517578125e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.499996185302734,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        11348,
+        928,
+        63,
+        16384
+      ]
+    },
+    {
+      "seed": 31,
+      "step": 100,
+      "file": "seed_031_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49999713897705,
+            63.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.49999713897705,
+            43.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5,
+            63.49998474121094
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        6141,
+        0,
+        40,
+        16384
+      ]
+    },
+    {
+      "seed": 36,
+      "step": 81,
+      "file": "seed_036_step_081.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.499996185302734,
+            63.49999237060547
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.500003814697266,
+            43.50000762939453
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5,
+            63.49999237060547
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        }
+      },
+      "channel_pixels": [
+        10548,
+        931,
+        58,
+        16384
+      ]
+    },
+    {
+      "seed": 41,
+      "step": 100,
+      "file": "seed_041_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49998474121094,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.49999237060547,
+            43.5
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.49999237060547,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        }
+      },
+      "channel_pixels": [
+        5803,
+        552,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 46,
+      "step": 100,
+      "file": "seed_046_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49999834597111,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.49999797344208,
+            43.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        5971,
+        0,
+        46,
+        16384
+      ]
+    },
+    {
+      "seed": 52,
+      "step": 90,
+      "file": "seed_052_step_090.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.5,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.5,
+            43.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5,
+            63.5000114440918
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.1444091796875e-05
+        }
+      },
+      "channel_pixels": [
+        6068,
+        170,
+        81,
+        16384
+      ]
+    },
+    {
+      "seed": 57,
+      "step": 100,
+      "file": "seed_057_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.50000190734863,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.9073486328125e-06
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50000286102295,
+            43.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.500003814697266,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 3.814697265625e-06
+        }
+      },
+      "channel_pixels": [
+        6114,
+        0,
+        34,
+        16384
+      ]
+    },
+    {
+      "seed": 62,
+      "step": 100,
+      "file": "seed_062_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.5,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 0.0
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50000762939453,
+            43.5
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 0.0
+        }
+      },
+      "channel_pixels": [
+        6005,
+        372,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 67,
+      "step": 100,
+      "file": "seed_067_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49999237060547,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 7.62939453125e-06
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.49999237060547,
+            43.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.499996185302734,
+            63.49998474121094
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        5786,
+        593,
+        43,
+        16384
+      ]
+    },
+    {
+      "seed": 72,
+      "step": 100,
+      "file": "seed_072_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.5,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 0.0
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.5,
+            43.5
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 0.0
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.49998474121094,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        5332,
+        262,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 78,
+      "step": 100,
+      "file": "seed_078_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.500005692243576,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 5.692243576049805e-06
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50000515580177,
+            43.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5000057220459,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 5.7220458984375e-06
+        }
+      },
+      "channel_pixels": [
+        6061,
+        12,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 83,
+      "step": 100,
+      "file": "seed_083_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.49998474121094,
+            63.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.49999237060547,
+            43.49998474121094
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.49999237060547,
+            63.49998474121094
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        5783,
+        541,
+        26,
+        16384
+      ]
+    },
+    {
+      "seed": 88,
+      "step": 100,
+      "file": "seed_088_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.500009059906006,
+            63.5
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 9.059906005859375e-06
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50001001358032,
+            43.5
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.0013580322265625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5000114440918,
+            63.5
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.1444091796875e-05
+        }
+      },
+      "channel_pixels": [
+        6913,
+        359,
+        31,
+        16384
+      ]
+    },
+    {
+      "seed": 93,
+      "step": 100,
+      "file": "seed_093_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.50000476837158,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.5000057220459,
+            43.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.5000057220459,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        5995,
+        0,
+        0,
+        16384
+      ]
+    },
+    {
+      "seed": 99,
+      "step": 100,
+      "file": "seed_099_step_100.npz",
+      "calibration": {
+        "center": {
+          "actual_pixel": [
+            63.50000190734863,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "forward_10m": {
+          "actual_pixel": [
+            63.50000190734863,
+            43.50001525878906
+          ],
+          "expected_pixel": [
+            63.5,
+            43.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        },
+        "left_10m": {
+          "actual_pixel": [
+            43.500003814697266,
+            63.50001525878906
+          ],
+          "expected_pixel": [
+            43.5,
+            63.5
+          ],
+          "max_error_pixel": 1.52587890625e-05
+        }
+      },
+      "channel_pixels": [
+        7181,
+        399,
+        40,
+        16384
+      ]
+    }
+  ],
+  "completed": false,
+  "git_commit": "3c49b0f7e4827b89953676a66e197dd91d006387",
+  "goal_sha256": "080d5dd9354c07851f1c9fea54cbb1bb924487498b2c115f161beff4a3756e69",
+  "source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "config": {
+    "episodes": 100,
+    "horizon": 500,
+    "start_seed": 0,
+    "egl_device": 1,
+    "map_blocks": 3,
+    "traffic_density": 0.1,
+    "msaa": 0,
+    "visibility_mode": "full_ground_truth"
+  },
+  "memory_before": {
+    "rss_bytes": 113778688,
+    "devices": [
+      {
+        "path": "/sys/class/drm/card1/device",
+        "pci": "0000:03:00.0",
+        "total_bytes": 21458059264,
+        "device_used_bytes": 2324553728,
+        "process_vram_bytes": null
+      },
+      {
+        "path": "/sys/class/drm/card2/device",
+        "pci": "0000:13:00.0",
+        "total_bytes": 536870912,
+        "device_used_bytes": 16556032,
+        "process_vram_bytes": null
+      }
+    ],
+    "drm_client_count": 0
+  },
+  "msaa_adjustments": [
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 0
+    }
+  ],
+  "channels": [
+    "drivable",
+    "boundary_static",
+    "other_actors",
+    "visibility"
+  ],
+  "visibility_note": "255 everywhere in un-degraded top-down ground truth. No ray-cast occlusion in stage 1.",
+  "timing_definition": "env.step including native semantic render and readback + RGB unpack + four-channel extraction",
+  "graphics": {
+    "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+    "vendor": "AMD",
+    "version": "4.6 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4",
+    "pipe": "eglGraphicsPipe"
+  },
+  "video": "outputs/videos/restart_stage1/map-native-bev_seed-0_20261016_015448_239557.mp4"
+}

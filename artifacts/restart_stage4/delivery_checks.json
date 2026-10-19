@@ -1,0 +1,52 @@
+{
+  "matched_finite_test_cohort": 9600,
+  "joint_timing_samples": 52909,
+  "action_only_timing_samples": 88056,
+  "videos": [
+    {
+      "path": "artifacts/restart_stage4/stage4_acceptance.mp4",
+      "bytes": 2554278,
+      "decoded": true
+    },
+    {
+      "path": "outputs/videos/stage4_joint/map-SCS_seed-309000_20261017_010620_938455.mp4",
+      "bytes": 2072541,
+      "decoded": true
+    },
+    {
+      "path": "outputs/videos/stage4_joint/map-CSC_seed-319000_20261017_011051_816956.mp4",
+      "bytes": 3565341,
+      "decoded": true
+    },
+    {
+      "path": "outputs/videos/stage4_action_only/map-SCS_seed-309000_20261017_011652_286394.mp4",
+      "bytes": 2113909,
+      "decoded": true
+    },
+    {
+      "path": "outputs/videos/stage4_action_only/map-CSC_seed-319000_20261017_012337_928789.mp4",
+      "bytes": 1055958,
+      "decoded": true
+    }
+  ],
+  "rrd": [
+    {
+      "path": "artifacts/restart_stage4/joint_closed_loop/map_SCS_seed_309000.rrd",
+      "metadata": "artifacts/restart_stage4/closed_rrd_contents_00.txt"
+    },
+    {
+      "path": "artifacts/restart_stage4/joint_closed_loop/map_CSC_seed_319000.rrd",
+      "metadata": "artifacts/restart_stage4/closed_rrd_contents_01.txt"
+    },
+    {
+      "path": "artifacts/restart_stage4/action_only_closed_loop/map_SCS_seed_309000.rrd",
+      "metadata": "artifacts/restart_stage4/closed_rrd_contents_02.txt"
+    },
+    {
+      "path": "artifacts/restart_stage4/action_only_closed_loop/map_CSC_seed_319000.rrd",
+      "metadata": "artifacts/restart_stage4/closed_rrd_contents_03.txt"
+    }
+  ],
+  "marimo_runs": 31,
+  "tests": "43 tests passed; tests_all_delivery_001.log"
+}

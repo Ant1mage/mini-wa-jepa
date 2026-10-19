@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-16T01:11:47.607675-07:00",
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "lspci": {
+    "exit_code": 0,
+    "stdout": "00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14d8\n00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Device 14d9\n00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14da\n00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 14db\n00:01.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 14db\n00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14da\n00:02.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 14db\n00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 14db\n00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14da\n00:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14da\n00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14da\n00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 14dd\n00:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Device 14dd\n00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 71)\n00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)\n00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e0\n00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e1\n00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e2\n00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e3\n00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e4\n00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e5\n00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e6\n00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Device 14e7\n01:00.0 PCI bridge: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 XL Upstream Port of PCI Express Switch (rev 10)\n02:00.0 PCI bridge: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 XL Downstream Port of PCI Express Switch (rev 10)\n03:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 31 [Radeon RX 7900 XT/7900 XTX/7900M] (rev cc)\n03:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Navi 31 HDMI/DP Audio\n04:00.0 Non-Volatile memory controller: Sandisk Corp SanDisk Extreme Pro / WD Black SN750 / PC SN730 / Red SN700 NVMe SSD\n05:00.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Upstream Port (rev 01)\n06:00.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:01.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:02.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:03.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:04.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:05.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:06.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:07.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:08.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:0c.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n06:0d.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset PCIe Switch Downstream Port (rev 01)\n09:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8852CE PCIe 802.11ax Wireless Network Controller (rev 01)\n0a:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 05)\n10:00.0 USB controller: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset USB 3.2 Controller (rev 01)\n11:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] 600 Series Chipset SATA Controller (rev 01)\n12:00.0 Non-Volatile memory controller: MAXIO Technology (Hangzhou) Ltd. NVMe SSD Controller MAP1602 (DRAM-less) (rev 01)\n13:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Raphael (rev cb)\n13:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Rembrandt Radeon High Definition Audio Controller\n13:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Family 19h PSP/CCP\n13:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Device 15b6\n13:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Device 15b7\n13:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller\n14:00.0 USB controller: Advanced Micro Devices, Inc. [AMD] Device 15b8\n",
+    "stderr": ""
+  },
+  "pip_check": {
+    "exit_code": 1,
+    "stdout": "torch 2.9.1+rocm6.4 requires pytorch-triton-rocm, which is not installed.\n",
+    "stderr": ""
+  },
+  "metadrive_source_status": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "versions": {
+    "torch": "2.9.1+rocm6.4",
+    "numpy": "1.26.4",
+    "metadrive-simulator": "0.4.3",
+    "panda3d": "1.10.16",
+    "gymnasium": "1.4.0"
+  }
+}

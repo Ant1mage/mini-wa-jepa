@@ -1,0 +1,38 @@
+{
+  "status": "average-throughput gate passed; finite-run VRAM stable",
+  "episodes": 100,
+  "process_crashes": 0,
+  "total_steps": 34494,
+  "pipeline_fps": 149.80599341401125,
+  "wall_fps": 60.06555761797509,
+  "pipeline_ms_p50_p95": [
+    6.67984199935745,
+    9.54582529957406
+  ],
+  "per_episode_fps_min_max": [
+    107.77882448142985,
+    275.29201249464944
+  ],
+  "sample_count": 20,
+  "unique_sample_tensors": 20,
+  "samples_with_other_actors": 13,
+  "calibration_max_error_pixel": 0.00018310546875,
+  "vram_process_mib_first_last": [
+    906.2890625,
+    908.2890625
+  ],
+  "vram_process_mib_after_warmup_min_max": [
+    904.2890625,
+    912.2890625
+  ],
+  "vram_slope_mib_per_episode_after_warmup": -0.0032817627754391007,
+  "rss_mib_after_warmup_min_max": [
+    6009.4375,
+    6015.23046875
+  ],
+  "reset_seconds": 331.8306977139964,
+  "elapsed_seconds": 574.2725343429993,
+  "video": "outputs/videos/restart_stage1/map-pg3-seed0_seed-0_20261016_015448_239557.mp4",
+  "git_commit": "3c49b0f7e4827b89953676a66e197dd91d006387",
+  "goal_sha256": "080d5dd9354c07851f1c9fea54cbb1bb924487498b2c115f161beff4a3756e69"
+}

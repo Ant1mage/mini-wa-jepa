@@ -1,0 +1,146 @@
+{
+  "config": {
+    "episodes": 1,
+    "start_seed": 0,
+    "horizon": 120,
+    "map": 3,
+    "traffic_density": 0.1,
+    "bev_size": 256,
+    "bev_pixels_per_metre": 4.0,
+    "film_size": 2048,
+    "rgb_width": 256,
+    "rgb_height": 144,
+    "capture_count": 1
+  },
+  "backend": "egl",
+  "seed": 0,
+  "git_commit": "c49e7b892b19b4e1c48a8c39e0b1ed253d47c645",
+  "metadrive_commit": "fe54b03327b14bcfc17a9a04b60c8abbee4d7ab1",
+  "display": null,
+  "wayland_display": null,
+  "libgl_always_software": null,
+  "egl_device_index": 1,
+  "msaa_limit": 8,
+  "episodes": [
+    {
+      "seed": 0,
+      "steps": 120,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 2.54185606899955,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.18291360622774652
+    }
+  ],
+  "image_checks": [
+    {
+      "seed": 0,
+      "step": 100,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 235.30797831217447,
+        "std": 32.48081165925199,
+        "unique_colors": 295
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 188.06528501157408,
+        "std": 34.85957650065134,
+        "unique_colors": 6590
+      },
+      "effective_bev_pixels_per_metre": 4.0
+    }
+  ],
+  "completed_without_exception": false,
+  "msaa_adjustments": [
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 8
+    },
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 8
+    }
+  ],
+  "graphics": {
+    "vendor": "AMD",
+    "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+    "version": "4.6 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4",
+    "pipe": "eglGraphicsPipe"
+  },
+  "initial_state": {
+    "position_m": [
+      5.0,
+      7.0
+    ],
+    "heading_rad": 0.0,
+    "speed_m_s": 0.0,
+    "velocity_m_s": [
+      0.0,
+      0.0
+    ],
+    "current_lane_index": [
+      ">",
+      ">>",
+      0
+    ],
+    "reference_lanes": 3,
+    "next_reference_lanes": 3,
+    "checkpoints": [
+      ">",
+      ">>",
+      ">>>",
+      "1C0_0_",
+      "1C0_1_",
+      "2C0_0_",
+      "2C0_1_",
+      "3C0_0_",
+      "3C0_1_"
+    ],
+    "lane_length_m": 10.0,
+    "lane_coordinates_m": [
+      5.0,
+      0.0
+    ],
+    "reference_point_10m": [
+      10.0,
+      7.0
+    ],
+    "reference_heading_rad": 0.0,
+    "destination_m": [
+      12.199984209113325,
+      -329.53620675688126
+    ],
+    "route_completion": 0.009952108287938272,
+    "dynamics": {
+      "max_engine_force": 759.463623046875,
+      "max_brake_force": 89.463623046875,
+      "wheel_friction": 0.8999999761581421,
+      "max_steering": 40.0,
+      "mass": 1100
+    },
+    "dimensions_m": [
+      4.515,
+      1.852,
+      1.19
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "device_index": 1,
+  "software_requested": false,
+  "vendor": "AMD",
+  "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+  "version": "4.6 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4",
+  "pipe": "eglGraphicsPipe",
+  "buffers": [
+    {
+      "msaa_requested": 0,
+      "success": true
+    },
+    {
+      "msaa_requested": 4,
+      "success": true
+    },
+    {
+      "msaa_requested": 8,
+      "success": true
+    },
+    {
+      "msaa_requested": 16,
+      "success": false
+    }
+  ]
+}

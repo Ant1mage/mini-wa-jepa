@@ -1,0 +1,14 @@
+{
+  "stage": 5,
+  "completed": true,
+  "passed": true,
+  "gates": {
+    "open_cohort": true,
+    "clean_open_reproduced": true,
+    "closed_cohort": true,
+    "frozen_checkpoints": true,
+    "finite_metrics": true,
+    "multimodal_evidence": true
+  },
+  "interpretation": "These gates audit protocol completion and evidence; they do not assert a positive robustness result."
+}

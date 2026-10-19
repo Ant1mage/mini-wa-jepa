@@ -1,0 +1,53 @@
+{
+  "command": [
+    "/home/auronox/Desktop/mini-wa-jepa/.venv/bin/python",
+    "-m",
+    "scripts.verify_stage1_v2",
+    "--output",
+    "artifacts/restart_stage1/egl_100",
+    "--episodes",
+    "100",
+    "--record"
+  ],
+  "exit_code": 0,
+  "memory_before_child": {
+    "rss_bytes": 15323136,
+    "devices": [
+      {
+        "path": "/sys/class/drm/card1/device",
+        "pci": "0000:03:00.0",
+        "total_bytes": 21458059264,
+        "device_used_bytes": 2324553728,
+        "process_vram_bytes": null
+      },
+      {
+        "path": "/sys/class/drm/card2/device",
+        "pci": "0000:13:00.0",
+        "total_bytes": 536870912,
+        "device_used_bytes": 16556032,
+        "process_vram_bytes": null
+      }
+    ],
+    "drm_client_count": 0
+  },
+  "memory_after_child_exit": {
+    "rss_bytes": 15331328,
+    "devices": [
+      {
+        "path": "/sys/class/drm/card1/device",
+        "pci": "0000:03:00.0",
+        "total_bytes": 21458059264,
+        "device_used_bytes": 2673729536,
+        "process_vram_bytes": null
+      },
+      {
+        "path": "/sys/class/drm/card2/device",
+        "pci": "0000:13:00.0",
+        "total_bytes": 536870912,
+        "device_used_bytes": 16556032,
+        "process_vram_bytes": null
+      }
+    ],
+    "drm_client_count": 0
+  }
+}

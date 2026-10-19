@@ -1,0 +1,14 @@
+# Current project agreement — restarted specification
+
+- The new front section of GOAL.md (before the repeated legacy “## 0. 目标”) is current. The appended older plan and docs/legacy are historical.
+- User instruction “那你继续吧，先把14gb这个干掉” removes the artificial 14GB VRAM peak restriction (20GB hardware VRAM + mmap dataset loading), accepts stage 4 (all 7 gates passed, Joint route completion 0.9698 vs Action-only 0.2971), and authorizes stage 5: BEV occlusion, boundary loss, and frame dropout stress testing comparing Mini-WA-JEPA against the CNN/ResNet baseline under varying degradation levels.
+- Stage 1 requires EGL, 128x128 four-channel CHW uint8 BEV over a 64m square, calibrated ego center/heading, 20 sample sets, 100 episodes, complete-pipeline FPS >=120, and measured RAM/VRAM trends.
+- Preserve previous code, reports and failed-run evidence. The user's latest instruction overrides retention of old training datasets: schema-1 stage 2 dataset directories have been removed, with cleanup inventory/manifests under artifacts/restart_stage2. Never reuse old data for v2 training. Preserve stage 1 acceptance samples and records.
+- PyTorch ROCm only; functional SDPA, no CUDA dependencies, flash-attn, xformers, Triton, custom CUDA operators or torch.compile. No WA-JEPA/V-JEPA code, clones, data or pretrained weights.
+- Follow the new 15–30M budget, deterministic-first/VICReg architecture, explicit (x,y,v,heading) trajectory (10 points at 0.2s), TensorBoard and stage gates later.
+- Preserve desktop/live, keyboard interaction and video requirements. Every acceptance needs a video; stage 3 onward also needs periodic prediction-vs-truth figures.
+- The old same-process Panda3D/Pygame live path has known native failures. Do not describe it as fixed without a successful test or casually relaunch it.
+- Use `mini_wa_jepa.visualization.RerunLogger` for all multimodal visualization. Collection/replay use `--rerun` for an independent viewer and `--rerun-save` for `.rrd`; `--live` aliases Rerun. Preserve keyboard/manual-control requirements as a separate pending simulator-control task; Rerun timeline controls do not implement vehicle control.
+- Stages 3–5 retain TensorBoard, periodically save actual open-loop trajectories (when applicable) and latent predictions/targets to `.rrd`, and update `scripts/dashboard_marimo.py` with ablations, ADE/FDE and open/closed-loop results. See `docs/VISUALIZATION.md` for the measured-report contract. Missing metrics must stay missing.
+- Read simulator source/docs or run an experiment before assuming uncertain APIs. Preserve abnormal failures and produce MREs; do not hide them with hardware-specific hacks.
+- Maintain TASKS.md. Record config, seeds, source commit, goal hash and raw metrics. Report failed thresholds honestly. Stop after each stage report, awaiting explicit confirmation for the next stage.

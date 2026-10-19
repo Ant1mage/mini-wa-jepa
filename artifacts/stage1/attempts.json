@@ -1,0 +1,66 @@
+[
+  {
+    "attempt": "pypi_install",
+    "exit_code": 1,
+    "version": "0.2.6.0",
+    "result": "gym 0.19 metadata build failed on Python 3.12; switched to official pinned source per upstream installation instructions"
+  },
+  {
+    "attempt": "default_offscreen",
+    "report": "default/report.json",
+    "exit_code": 0,
+    "qualifies_headless": false,
+    "result": "glxGraphicsPipe connected X :0.0 despite DISPLAY removal"
+  },
+  {
+    "attempt": "native_egl",
+    "report": "egl_smoke/report.json",
+    "exit_code": 1,
+    "result": "PBR 16x MSAA framebuffer unavailable, tonemap quad None"
+  },
+  {
+    "attempt": "software_auto_device",
+    "exit_code": 139,
+    "signal": "SIGSEGV",
+    "log": "software_smoke/raw.log",
+    "result": "Mesa warned software cannot be forced when EGL selected hardware device; no JSON due native process crash"
+  },
+  {
+    "attempt": "software_force_software_flag",
+    "report": "software_msaa4_smoke/report.json",
+    "exit_code": 1,
+    "result": "Panda3D rejects llvmpipe when framebuffer-software=true"
+  },
+  {
+    "attempt": "software_compatible",
+    "report": "software_compatible/report.json",
+    "exit_code": 0,
+    "result": "llvmpipe EGL device 2, force-hardware=false, force-software=false, cap MSAA4; graphics smoke success"
+  },
+  {
+    "attempt": "gpu_egl_msaa8_smoke",
+    "report": "egl_msaa8_smoke/report.json",
+    "exit_code": 0,
+    "result": "RX 7900 XT EGL device 1, MSAA8, 120 steps"
+  },
+  {
+    "attempt": "gpu_egl_interrupted",
+    "report": "egl_unmounted_partial/report.json",
+    "exit_code": 130,
+    "result": "Interrupted due incorrect camera mounting suspicion. Directory name reflects initial suspicion only; later native-hook experiment proves camera was mounted. Not counted as acceptance."
+  },
+  {
+    "attempt": "gpu_egl_final",
+    "report": "egl_100/report.json",
+    "result": "Final acceptance run with explicit ego mounting invariant; final status in report",
+    "exit_code": 0,
+    "completed_episodes": 100,
+    "total_steps": 34494
+  },
+  {
+    "attempt": "software_ego_final",
+    "report": "software_ego/report.json",
+    "exit_code": 0,
+    "result": "120 steps; llvmpipe; native ego mount independently checked; image shapes and nonempty checks passed"
+  }
+]

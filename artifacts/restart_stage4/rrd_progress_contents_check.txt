@@ -1,0 +1,172 @@
+StoreInfo {
+    application_id: ApplicationId(
+        "mini-wa-jepa-stage4-joint",
+    ),
+    store_id: StoreId {
+        kind: Recording,
+        id: "fd40f505-0244-4f89-b572-a34d62c89e6e",
+    },
+    cloned_from: None,
+    is_official_example: false,
+    started: "06:28:57.183133Z",
+    store_source: PythonSdk(
+        3.12.3,
+    ),
+    store_version: Some(
+        CrateVersion {
+            major: 0,
+            minor: 22,
+            patch: 1,
+            meta: None,
+        },
+    ),
+}
+StoreInfo {
+    application_id: ApplicationId(
+        "mini-wa-jepa-stage4-joint",
+    ),
+    store_id: StoreId {
+        kind: Recording,
+        id: "fd40f505-0244-4f89-b572-a34d62c89e6e",
+    },
+    cloned_from: None,
+    is_official_example: false,
+    started: "06:28:57.183133Z",
+    store_source: PythonSdk(
+        3.12.3,
+    ),
+    store_version: Some(
+        CrateVersion {
+            major: 0,
+            minor: 22,
+            patch: 1,
+            meta: None,
+        },
+    ),
+}
+StoreInfo {
+    application_id: ApplicationId(
+        "mini-wa-jepa-stage4-joint",
+    ),
+    store_id: StoreId {
+        kind: Blueprint,
+        id: "d10747f7-cf18-4a0b-b6ee-06a9339fe0cd",
+    },
+    cloned_from: None,
+    is_official_example: false,
+    started: "06:28:57.183450Z",
+    store_source: PythonSdk(
+        3.12.3,
+    ),
+    store_version: Some(
+        CrateVersion {
+            major: 0,
+            minor: 22,
+            patch: 1,
+            meta: None,
+        },
+    ),
+}
+StoreInfo {
+    application_id: ApplicationId(
+        "mini-wa-jepa-stage4-joint",
+    ),
+    store_id: StoreId {
+        kind: Blueprint,
+        id: "d10747f7-cf18-4a0b-b6ee-06a9339fe0cd",
+    },
+    cloned_from: None,
+    is_official_example: false,
+    started: "06:28:57.183450Z",
+    store_source: PythonSdk(
+        3.12.3,
+    ),
+    store_version: Some(
+        CrateVersion {
+            major: 0,
+            minor: 22,
+            patch: 1,
+            meta: None,
+        },
+    ),
+}
+Chunk(18DF3D4394C081FF772797028371A7BF) with 1 rows (1.7 KiB) - /view/25f6cd5d-001e-4df3-8735-76c829e7aae6 - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C0F17F772797028371A7C0) with 1 rows (1.0 KiB) - /view/25f6cd5d-001e-4df3-8735-76c829e7aae6 - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C11ABF772797028371A7C1) with 1 rows (1.0 KiB) - /view/b28f58db-b5a3-4628-a498-f063d618c296/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C128EA772797028371A7C2) with 1 rows (1.0 KiB) - /view/b28f58db-b5a3-4628-a498-f063d618c296/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C12F69772797028371A7C3) with 1 rows (1.8 KiB) - /container/07d689c4-4f97-454a-9bd5-094b84c1340e - columns: [Visible IncludedContent ContainerKind]
+Chunk(18DF3D4394C142E6772797028371A7C4) with 1 rows (1.0 KiB) - /container/07d689c4-4f97-454a-9bd5-094b84c1340e - columns: [ContainerBlueprintIndicator]
+Chunk(18DF3D4394C14DF0772797028371A7C5) with 1 rows (1.0 KiB) - /view/15903eac-55c3-4690-a3e7-541566d6523d/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C15429772797028371A7C6) with 1 rows (1.0 KiB) - /view/15903eac-55c3-4690-a3e7-541566d6523d/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C15877772797028371A7C7) with 1 rows (1.0 KiB) - /view/cc7491f1-2089-4601-9ed5-95b3c6f2d6c2/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C1654D772797028371A7C8) with 1 rows (1.0 KiB) - /view/cc7491f1-2089-4601-9ed5-95b3c6f2d6c2/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C170A6772797028371A7C9) with 1 rows (1.7 KiB) - /view/d0da9315-73f4-4c29-919f-c12bdbe8917c - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C17F21772797028371A7CA) with 1 rows (1.0 KiB) - /view/d0da9315-73f4-4c29-919f-c12bdbe8917c - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C1841A772797028371A7CB) with 1 rows (1.7 KiB) - /view/9fc11f62-6240-4990-9cc2-4889c2889c55 - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C1A142772797028371A7CC) with 1 rows (1.0 KiB) - /view/9fc11f62-6240-4990-9cc2-4889c2889c55 - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C1A749772797028371A7CD) with 1 rows (1.7 KiB) - /container/1daeb648-495c-4dd7-9f52-dd5f1763d84a - columns: [Visible IncludedContent ContainerKind]
+Chunk(18DF3D4394C1B6B4772797028371A7CE) with 1 rows (1.0 KiB) - /container/1daeb648-495c-4dd7-9f52-dd5f1763d84a - columns: [ContainerBlueprintIndicator]
+Chunk(18DF3D4394C1C6C0772797028371A7CF) with 1 rows (1.8 KiB) - /container/40a89502-27cd-48d2-88d4-be46dcd1a57f - columns: [Visible IncludedContent ContainerKind]
+Chunk(18DF3D4394C1D7B2772797028371A7D0) with 1 rows (1.0 KiB) - /container/40a89502-27cd-48d2-88d4-be46dcd1a57f - columns: [ContainerBlueprintIndicator]
+Chunk(18DF3D4394C1DDE1772797028371A7D1) with 1 rows (1.0 KiB) - /view/69c3249f-6d5e-4c0e-a355-63e765a6c898/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C1EB61772797028371A7D2) with 1 rows (1.0 KiB) - /view/69c3249f-6d5e-4c0e-a355-63e765a6c898/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C1F62F772797028371A7D3) with 1 rows (1.0 KiB) - /view/5a5db108-f2c2-478d-9537-ffe7c4d0087e/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C20676772797028371A7D4) with 1 rows (1.0 KiB) - /view/5a5db108-f2c2-478d-9537-ffe7c4d0087e/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C2120C772797028371A7D5) with 1 rows (1.7 KiB) - /view/5a5db108-f2c2-478d-9537-ffe7c4d0087e - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C21C1B772797028371A7D6) with 1 rows (1.0 KiB) - /view/5a5db108-f2c2-478d-9537-ffe7c4d0087e - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C22589772797028371A7D7) with 1 rows (1.0 KiB) - /viewport - columns: [RootContainer]
+Chunk(18DF3D4394C23418772797028371A7D8) with 1 rows (1.0 KiB) - /viewport - columns: [ViewportBlueprintIndicator]
+Chunk(18DF3D4394C23C1E772797028371A7D9) with 1 rows (1.0 KiB) - /view/9fc11f62-6240-4990-9cc2-4889c2889c55/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C252BD772797028371A7DA) with 1 rows (1.0 KiB) - /view/9fc11f62-6240-4990-9cc2-4889c2889c55/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C25CFE772797028371A7DB) with 1 rows (1.7 KiB) - /view/69c3249f-6d5e-4c0e-a355-63e765a6c898 - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C270E0772797028371A7DC) with 1 rows (1.0 KiB) - /view/69c3249f-6d5e-4c0e-a355-63e765a6c898 - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C277AF772797028371A7DD) with 1 rows (1.7 KiB) - /view/15903eac-55c3-4690-a3e7-541566d6523d - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C283E5772797028371A7DE) with 1 rows (1.0 KiB) - /view/15903eac-55c3-4690-a3e7-541566d6523d - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C294E1772797028371A7DF) with 1 rows (1.7 KiB) - /view/b28f58db-b5a3-4628-a498-f063d618c296 - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C2AF4C772797028371A7E0) with 1 rows (1.0 KiB) - /view/b28f58db-b5a3-4628-a498-f063d618c296 - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C2B75C772797028371A7E1) with 1 rows (1.7 KiB) - /view/16149640-a898-4596-ab0a-4a0d53a6f542 - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C2C7F4772797028371A7E2) with 1 rows (1.0 KiB) - /view/16149640-a898-4596-ab0a-4a0d53a6f542 - columns: [ViewBlueprintIndicator]
+Chunk(18DF3D4394C2CEEB772797028371A7E3) with 1 rows (1.0 KiB) - /view/d0da9315-73f4-4c29-919f-c12bdbe8917c/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C2E39F772797028371A7E4) with 1 rows (1.0 KiB) - /view/d0da9315-73f4-4c29-919f-c12bdbe8917c/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C2EB73772797028371A7E5) with 1 rows (1.1 KiB) - /view/25f6cd5d-001e-4df3-8735-76c829e7aae6/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C2F821772797028371A7E6) with 1 rows (1.0 KiB) - /view/25f6cd5d-001e-4df3-8735-76c829e7aae6/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C2FD7D772797028371A7E7) with 1 rows (1.7 KiB) - /container/70ee1541-ec78-4394-84d0-c5b6f81bad86 - columns: [Visible IncludedContent ContainerKind]
+Chunk(18DF3D4394C31322772797028371A7E8) with 1 rows (1.0 KiB) - /container/70ee1541-ec78-4394-84d0-c5b6f81bad86 - columns: [ContainerBlueprintIndicator]
+Chunk(18DF3D4394C31AB9772797028371A7E9) with 1 rows (1.0 KiB) - /view/16149640-a898-4596-ab0a-4a0d53a6f542/ViewContents - columns: [QueryExpression]
+Chunk(18DF3D4394C32189772797028371A7EA) with 1 rows (1.0 KiB) - /view/16149640-a898-4596-ab0a-4a0d53a6f542/ViewContents - columns: [ViewContentsIndicator]
+Chunk(18DF3D4394C32999772797028371A7EB) with 1 rows (1.7 KiB) - /view/cc7491f1-2089-4601-9ed5-95b3c6f2d6c2 - columns: [ViewClass ViewOrigin Name]
+Chunk(18DF3D4394C3454E772797028371A7EC) with 1 rows (1.0 KiB) - /view/cc7491f1-2089-4601-9ed5-95b3c6f2d6c2 - columns: [ViewBlueprintIndicator]
+BlueprintActivationCommand(d10747f7-cf18-4a0b-b6ee-06a9339fe0cd, make_active: true, make_default: true)
+Chunk(18DF3D4394ECE8221BF3B5D9A899DBF6) with 1 rows (1.5 KiB) - /bev/ground_truth_trajectory - columns: [Color LineStrip2D]
+Chunk(18DF3D4394ED48871BF3B5D9A899DBF7) with 1 rows (1.1 KiB) - /bev/ground_truth_trajectory - columns: [LineStrips2DIndicator]
+Chunk(18DF3D4394ED8F7B1BF3B5D9A899DBF8) with 1 rows (5.9 KiB) - /context - columns: [sample_id split episode_step latent_weight recovery_active anchor visualization_seed waypoint_dt_s seed global_step episode_id map_spec latent_horizons_s history_padding noise_active epoch]
+Chunk(18DF3D4394EDCB341BF3B5D9A899DBF9) with 1 rows (1.1 KiB) - /ego/world_vx_m_s - columns: [Scalar]
+Chunk(18DF3D4394EDDE9D1BF3B5D9A899DBFA) with 1 rows (1.1 KiB) - /ego/world_vx_m_s - columns: [ScalarIndicator]
+Chunk(18DF3D4394EDF5F01BF3B5D9A899DBFB) with 1 rows (17.5 KiB) - /bev/channels/vehicles - columns: [ImageBuffer ImageFormat]
+Chunk(18DF3D4394EE0F421BF3B5D9A899DBFC) with 1 rows (1.1 KiB) - /bev/channels/vehicles - columns: [ImageIndicator]
+Chunk(18DF3D4394EE1A9C1BF3B5D9A899DBFD) with 1 rows (17.5 KiB) - /bev/channels/visibility_mask - columns: [ImageBuffer ImageFormat]
+Chunk(18DF3D4394EE36A11BF3B5D9A899DBFE) with 1 rows (1.1 KiB) - /bev/channels/visibility_mask - columns: [ImageIndicator]
+Chunk(18DF3D4394EE3F0B1BF3B5D9A899DBFF) with 1 rows (1.5 KiB) - /bev/planned_trajectory - columns: [Color LineStrip2D]
+Chunk(18DF3D4394EE4CC81BF3B5D9A899DC00) with 1 rows (1.1 KiB) - /bev/planned_trajectory - columns: [LineStrips2DIndicator]
+Chunk(18DF3D4394EE542E1BF3B5D9A899DC01) with 1 rows (1.1 KiB) - /ego/speed_m_s - columns: [Scalar]
+Chunk(18DF3D4394EE5CDE1BF3B5D9A899DC02) with 1 rows (1.1 KiB) - /ego/speed_m_s - columns: [ScalarIndicator]
+Chunk(18DF3D4394EE6EC01BF3B5D9A899DC03) with 1 rows (49.5 KiB) - /bev/composite - columns: [ImageBuffer ImageFormat]
+Chunk(18DF3D4394EE8E0F1BF3B5D9A899DC04) with 1 rows (1.1 KiB) - /bev/composite - columns: [ImageIndicator]
+Chunk(18DF3D4394EE94671BF3B5D9A899DC05) with 1 rows (17.5 KiB) - /bev/channels/drivable - columns: [ImageBuffer ImageFormat]
+Chunk(18DF3D4394EEA9ED1BF3B5D9A899DC06) with 1 rows (1.1 KiB) - /bev/channels/drivable - columns: [ImageIndicator]
+Chunk(18DF3D4394EEB5321BF3B5D9A899DC07) with 1 rows (1.1 KiB) - /ego/world_x_m - columns: [Scalar]
+Chunk(18DF3D4394EEC4581BF3B5D9A899DC08) with 1 rows (1.1 KiB) - /ego/world_x_m - columns: [ScalarIndicator]
+Chunk(18DF3D4394EECE991BF3B5D9A899DC09) with 1 rows (1.1 KiB) - /ego/world_y_m - columns: [Scalar]
+Chunk(18DF3D4394EEF0191BF3B5D9A899DC0A) with 1 rows (1.1 KiB) - /ego/world_y_m - columns: [ScalarIndicator]
+Chunk(18DF3D4394EF01791BF3B5D9A899DC0B) with 1 rows (1.1 KiB) - /ego/world_vy_m_s - columns: [Scalar]
+Chunk(18DF3D4394EF16231BF3B5D9A899DC0C) with 1 rows (1.1 KiB) - /ego/world_vy_m_s - columns: [ScalarIndicator]
+Chunk(18DF3D4394EF22DB1BF3B5D9A899DC0D) with 1 rows (257 KiB) - /latent/ground_truth - columns: [TensorData]
+Chunk(18DF3D4394EF37AD1BF3B5D9A899DC0E) with 1 rows (1.1 KiB) - /latent/ground_truth - columns: [TensorIndicator]
+Chunk(18DF3D4394EF423E1BF3B5D9A899DC0F) with 1 rows (1.1 KiB) - /ego/heading_rad - columns: [Scalar]
+Chunk(18DF3D4394EF59051BF3B5D9A899DC10) with 1 rows (1.1 KiB) - /ego/heading_rad - columns: [ScalarIndicator]
+Chunk(18DF3D4394EF60611BF3B5D9A899DC11) with 1 rows (1.1 KiB) - /camera/native_rgb - columns: [ClearIsRecursive]
+Chunk(18DF3D4394EF6CDD1BF3B5D9A899DC12) with 1 rows (1.1 KiB) - /camera/native_rgb - columns: [ClearIndicator]
+Chunk(18DF3D4394EF77E61BF3B5D9A899DC13) with 1 rows (257 KiB) - /latent/predicted - columns: [TensorData]
+Chunk(18DF3D4394EF81691BF3B5D9A899DC14) with 1 rows (1.1 KiB) - /latent/predicted - columns: [TensorIndicator]
+Chunk(18DF3D4394EF90A21BF3B5D9A899DC15) with 1 rows (17.5 KiB) - /bev/channels/boundaries - columns: [ImageBuffer ImageFormat]
+Chunk(18DF3D4394EFAB531BF3B5D9A899DC16) with 1 rows (1.1 KiB) - /bev/channels/boundaries - columns: [ImageIndicator]

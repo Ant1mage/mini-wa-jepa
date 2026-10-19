@@ -1,0 +1,65 @@
+{
+  "episodes": 100,
+  "total_steps": 34494,
+  "process_crashes": 0,
+  "episode_events": {
+    "arrive_dest": 36,
+    "crash": 30,
+    "crash_vehicle": 30,
+    "crash_object": 0,
+    "crash_building": 0,
+    "out_of_road": 14,
+    "max_step": 21
+  },
+  "image_checks": {
+    "bev": {
+      "count": 20,
+      "distinct_images": 20,
+      "shape": [
+        256,
+        256,
+        3
+      ]
+    },
+    "rgb": {
+      "count": 20,
+      "distinct_images": 20,
+      "shape": [
+        144,
+        256,
+        3
+      ]
+    }
+  },
+  "bev_actual_pixels_per_metre_range": [
+    4.0,
+    4.0
+  ],
+  "timing": {
+    "elapsed_seconds": 385.6300687290004,
+    "steps_per_second_step_only": 155.54804358677558,
+    "steps_per_second_with_extraction": 96.7433549047379,
+    "steps_per_second_end_to_end": 89.44841908642887
+  },
+  "code_commit": "a49856bc060360f8ee6cfaa43dbcf4c1c88c7d3a",
+  "metadrive_commit": "fe54b03327b14bcfc17a9a04b60c8abbee4d7ab1",
+  "rocm": {
+    "torch": "2.9.1+rocm6.4",
+    "hip": "6.4.43484-123eb5128",
+    "cuda_build": null,
+    "available": true,
+    "device": "Radeon RX 7900 XT",
+    "memory_bytes": 21458059264,
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "seed": 0,
+    "sdpa_backend": "MATH",
+    "forbidden_packages": [],
+    "git_commit": "711e60581b8a2a67bd1b4d5d74356256d97080f7",
+    "matmul_ms_first_call": 71.5271360004408,
+    "matmul_relative_l2": 4.0531305126139037e-07,
+    "sdpa_fp32_max_abs": 3.5762786865234375e-07,
+    "bf16_relative_l2": 0.0032015335746109486,
+    "bf16_finite_forward_backward": true,
+    "triton_imported": false
+  }
+}

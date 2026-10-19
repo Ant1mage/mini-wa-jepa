@@ -1,0 +1,197 @@
+{
+  "config": {
+    "episodes": 1,
+    "start_seed": 0,
+    "horizon": 30,
+    "map": 3,
+    "traffic_density": 0.1,
+    "bev_size": 256,
+    "bev_pixels_per_metre": 4.0,
+    "film_size": 2048,
+    "rgb_width": 256,
+    "rgb_height": 144,
+    "capture_count": 1
+  },
+  "backend": "default",
+  "seed": 0,
+  "git_commit": "711e60581b8a2a67bd1b4d5d74356256d97080f7",
+  "metadrive_commit": "fe54b03327b14bcfc17a9a04b60c8abbee4d7ab1",
+  "display": null,
+  "wayland_display": null,
+  "libgl_always_software": null,
+  "episodes": [
+    {
+      "seed": 0,
+      "steps": 30,
+      "terminated": false,
+      "truncated": true,
+      "reset_seconds": 15.166892839999491,
+      "arrive_dest": false,
+      "crash": false,
+      "crash_vehicle": false,
+      "crash_object": false,
+      "crash_building": false,
+      "out_of_road": false,
+      "max_step": true,
+      "route_completion": 0.03397092013482064
+    }
+  ],
+  "image_checks": [
+    {
+      "seed": 0,
+      "step": 20,
+      "bev": {
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 242.15954081217447,
+        "std": 29.240925106207147,
+        "unique_colors": 8
+      },
+      "rgb": {
+        "shape": [
+          144,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "mean": 187.7269241898148,
+        "std": 33.57377812743213,
+        "unique_colors": 6540
+      },
+      "effective_bev_pixels_per_metre": 4.0
+    }
+  ],
+  "completed_without_exception": true,
+  "graphics": {
+    "vendor": "AMD",
+    "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+    "version": "4.6 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4",
+    "pipe": "glxGraphicsPipe"
+  },
+  "initial_state": {
+    "position_m": [
+      5.0,
+      7.0
+    ],
+    "heading_rad": 0.0,
+    "speed_m_s": 0.0,
+    "velocity_m_s": [
+      0.0,
+      0.0
+    ],
+    "current_lane_index": [
+      ">",
+      ">>",
+      0
+    ],
+    "reference_lanes": 3,
+    "next_reference_lanes": 3,
+    "checkpoints": [
+      ">",
+      ">>",
+      ">>>",
+      "1C0_0_",
+      "1C0_1_",
+      "2C0_0_",
+      "2C0_1_",
+      "3C0_0_",
+      "3C0_1_"
+    ],
+    "lane_length_m": 10.0,
+    "lane_coordinates_m": [
+      5.0,
+      0.0
+    ],
+    "reference_point_10m": [
+      10.0,
+      7.0
+    ],
+    "reference_heading_rad": 0.0,
+    "destination_m": [
+      12.199984209113325,
+      -329.53620675688126
+    ],
+    "route_completion": 0.009952108287938272,
+    "dynamics": {
+      "max_engine_force": 759.463623046875,
+      "max_brake_force": 89.463623046875,
+      "wheel_friction": 0.8999999761581421,
+      "max_steering": 40.0,
+      "mass": 1100
+    },
+    "dimensions_m": [
+      4.515,
+      1.852,
+      1.19
+    ]
+  },
+  "final_state": {
+    "position_m": [
+      17.067197799682617,
+      7.0
+    ],
+    "heading_rad": -2.663161087212984e-07,
+    "speed_m_s": 7.831108570099633,
+    "velocity_m_s": [
+      7.831108570098877,
+      -3.441034778006724e-06
+    ],
+    "current_lane_index": [
+      ">>",
+      ">>>",
+      0
+    ],
+    "reference_lanes": 3,
+    "next_reference_lanes": 3,
+    "checkpoints": [
+      ">",
+      ">>",
+      ">>>",
+      "1C0_0_",
+      "1C0_1_",
+      "2C0_0_",
+      "2C0_1_",
+      "3C0_0_",
+      "3C0_1_"
+    ],
+    "lane_length_m": 40.0,
+    "lane_coordinates_m": [
+      7.067197799682617,
+      0.0
+    ],
+    "reference_point_10m": [
+      27.067197799682617,
+      7.0
+    ],
+    "reference_heading_rad": 0.0,
+    "destination_m": [
+      12.199984209113325,
+      -329.53620675688126
+    ],
+    "route_completion": 0.03397092013482064,
+    "dynamics": {
+      "max_engine_force": 759.463623046875,
+      "max_brake_force": 89.463623046875,
+      "wheel_friction": 0.8999999761581421,
+      "max_steering": 40.0,
+      "mass": 1100
+    },
+    "dimensions_m": [
+      4.515,
+      1.852,
+      1.19
+    ]
+  },
+  "total_steps": 30,
+  "elapsed_seconds": 15.879045662999488,
+  "step_seconds": 0.10676024200074608,
+  "bev_seconds": 0.15099027800715703,
+  "rgb_seconds": 0.01236508000329195,
+  "steps_per_second_step_only": 281.00348442250953,
+  "steps_per_second_with_extraction": 111.06355944920115,
+  "steps_per_second_end_to_end": 1.8892823055421029
+}

@@ -1,0 +1,84 @@
+{
+  "initial_model_sha256": "e85cea9cb1e49add785e8fbef85d7657b80ca3e4ee5229f74aca49920e74654f",
+  "same_initial_model": true,
+  "same_configuration_except_latent_weight": true,
+  "unchanged_training_core": {
+    "configs/stage1.py": true,
+    "configs/stage2.py": true,
+    "configs/stage3.py": true,
+    "configs/__init__.py": true,
+    "configs/stage4.py": true,
+    "controller/trajectory_tracker.py": true,
+    "controller/pure_pursuit.py": true,
+    "controller/__init__.py": true,
+    "dataset/joint.py": true,
+    "dataset/augmentation.py": true,
+    "dataset/latent.py": true,
+    "dataset/sequences.py": true,
+    "dataset/storage.py": true,
+    "dataset/baseline.py": true,
+    "dataset/recording.py": true,
+    "dataset/__init__.py": true,
+    "env/semantic_bev.py": true,
+    "env/data_v2.py": true,
+    "env/render_compat.py": true,
+    "env/verification.py": true,
+    "env/expert.py": true,
+    "env/ground_truth_bev.py": true,
+    "env/stage2.py": true,
+    "env/__init__.py": true,
+    "models/joint.py": true,
+    "models/latent.py": true,
+    "models/baseline.py": true,
+    "models/__init__.py": true,
+    "training/joint.py": true,
+    "training/latent.py": true,
+    "training/joint_loss.py": true,
+    "training/baseline.py": true,
+    "training/vicreg.py": true,
+    "training/__init__.py": true,
+    "evaluation/latent.py": true,
+    "evaluation/memory.py": true,
+    "evaluation/visuals.py": true,
+    "evaluation/__init__.py": true,
+    "evaluation/history.py": true
+  },
+  "non_core_source_differences": {
+    "scripts/dashboard_marimo.py": {
+      "joint": "97b202eff336aec48b53ed649bcda1aa5aef68af5e8725d418b8c87f6aa089f5",
+      "action_only": "1ed9768fc7dd1477db4cb91dd5c1111c1b7d6a92671be9ceb393b2c398aa84d4"
+    },
+    "scripts/complete_stage4.py": {
+      "joint": null,
+      "action_only": "4be6bec994f76af3b1a75f980464b2dfa689c94ade6d367b1a2b592672b34d41"
+    },
+    "scripts/monitor_stage4_memory.py": {
+      "joint": null,
+      "action_only": "0b1092d1bca1646b108d0da6420607c6b9defcadbbefd8f7643d7830c4e70507"
+    },
+    "scripts/plot_stage4_memory.py": {
+      "joint": null,
+      "action_only": "16eecc637b2a154800a76defdc6c287a39eeca90e23c9f7d85b3f9cc37d809c6"
+    },
+    "scripts/evaluate_joint.py": {
+      "joint": null,
+      "action_only": "69faa2094ac596ce41cc990485204fd3503ce442ea135a7956628b2cc6c900af"
+    },
+    "scripts/evaluate_joint_closed_loop.py": {
+      "joint": null,
+      "action_only": "45696621d5afa5384936a4ab9bf068bdb9dfe779e64e53d4c10b7750579a6cee"
+    },
+    "scripts/report_stage4.py": {
+      "joint": null,
+      "action_only": "b58b72d32eff77fc45c7e7200c843ae68e29d52a878ec6f65e5f41064f58a642"
+    },
+    "mini_wa_jepa/visualization/reports.py": {
+      "joint": "9febbb4358ab347e561125d467667946744293fe9cea5c3fa6f48f74101982f5",
+      "action_only": "e41fd1c03c60c520eb9494b961274bd7b666296ab4fe7bb01bd54612fff416e4"
+    },
+    "scripts/audit_stage4_delivery.py": {
+      "joint": null,
+      "action_only": "f1760d58f9d26d9e23ffe58c624cc542eaeb6dd536a97d9db198c10139ba2794"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stage": 4,
+  "completed": true,
+  "current": "report_finished_await_user_stage5_confirmation",
+  "steps": [
+    {
+      "name": "test_evaluation",
+      "elapsed_s": 92.21740102767944
+    },
+    {
+      "name": "closed_loop_smoke",
+      "elapsed_s": 28.90273928642273
+    },
+    {
+      "name": "joint_closed_loop",
+      "elapsed_s": 631.2707617282867
+    },
+    {
+      "name": "action_only_closed_loop",
+      "elapsed_s": 865.1004772186279
+    },
+    {
+      "name": "stage4_report",
+      "elapsed_s": 2.089639663696289
+    },
+    {
+      "name": "dashboard_export",
+      "elapsed_s": 2.013042449951172
+    }
+  ]
+}

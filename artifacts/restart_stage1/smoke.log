@@ -1,0 +1,93 @@
+{"seed": 0, "steps": 150, "reset_seconds": 6.754590802000166, "pipeline_seconds": 0.7830473409958358, "pipeline_fps": 191.55929935122234, "max_calibration_error_pixel": 1.52587890625e-05, "memory": {"rss_bytes": 6296412160, "devices": [{"path": "/sys/class/drm/card1/device", "pci": "0000:03:00.0", "total_bytes": 21458059264, "device_used_bytes": 3315417088, "process_vram_bytes": 948219904}, {"path": "/sys/class/drm/card2/device", "pci": "0000:13:00.0", "total_bytes": 536870912, "device_used_bytes": 16621568, "process_vram_bytes": 65536}], "drm_client_count": 3}, "arrive_dest": false, "crash": false, "out_of_road": false, "max_step": true}
+{"seed": 1, "steps": 150, "reset_seconds": 3.316721911998684, "pipeline_seconds": 0.6965433799869061, "pipeline_fps": 215.34911436933012, "max_calibration_error_pixel": 3.0517578125e-05, "memory": {"rss_bytes": 6296883200, "devices": [{"path": "/sys/class/drm/card1/device", "pci": "0000:03:00.0", "total_bytes": 21458059264, "device_used_bytes": 3287625728, "process_vram_bytes": 950317056}, {"path": "/sys/class/drm/card2/device", "pci": "0000:13:00.0", "total_bytes": 536870912, "device_used_bytes": 16621568, "process_vram_bytes": 65536}], "drm_client_count": 3}, "arrive_dest": false, "crash": false, "out_of_road": false, "max_step": true}
+{
+  "spec": {
+    "size": 128,
+    "extent_m": 64.0,
+    "height_m": 50.0
+  },
+  "completed": true,
+  "git_commit": "b1a332279c3c9ce6908ae820435b309f9a84cd6f",
+  "goal_sha256": "080d5dd9354c07851f1c9fea54cbb1bb924487498b2c115f161beff4a3756e69",
+  "source_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "config": {
+    "episodes": 2,
+    "horizon": 150,
+    "start_seed": 0,
+    "egl_device": 1,
+    "map_blocks": 3,
+    "traffic_density": 0.1,
+    "msaa": 0,
+    "visibility_mode": "full_ground_truth"
+  },
+  "memory_before": {
+    "rss_bytes": 113717248,
+    "devices": [
+      {
+        "path": "/sys/class/drm/card1/device",
+        "pci": "0000:03:00.0",
+        "total_bytes": 21458059264,
+        "device_used_bytes": 2382376960,
+        "process_vram_bytes": null
+      },
+      {
+        "path": "/sys/class/drm/card2/device",
+        "pci": "0000:13:00.0",
+        "total_bytes": 536870912,
+        "device_used_bytes": 16556032,
+        "process_vram_bytes": null
+      }
+    ],
+    "drm_client_count": 0
+  },
+  "msaa_adjustments": [
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 0
+    }
+  ],
+  "channels": [
+    "drivable",
+    "boundary_static",
+    "other_actors",
+    "visibility"
+  ],
+  "visibility_note": "255 everywhere in un-degraded top-down ground truth. No ray-cast occlusion in stage 1.",
+  "timing_definition": "env.step including native semantic render and readback + RGB unpack + four-channel extraction",
+  "graphics": {
+    "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+    "vendor": "AMD",
+    "version": "4.6 (Compatibility Profile) Mesa 25.2.8-0ubuntu0.24.04.4",
+    "pipe": "eglGraphicsPipe"
+  },
+  "total_steps": 300,
+  "pipeline_seconds": 1.479590720982742,
+  "pipeline_fps": 202.7587735889155,
+  "pipeline_ms_p50_p95": [
+    5.065419499260315,
+    5.730012700405496
+  ],
+  "elapsed_seconds": 22.550562682999953,
+  "wall_fps": 13.303437444874007,
+  "memory_after_close": {
+    "rss_bytes": 3505750016,
+    "devices": [
+      {
+        "path": "/sys/class/drm/card1/device",
+        "pci": "0000:03:00.0",
+        "total_bytes": 21458059264,
+        "device_used_bytes": 3287625728,
+        "process_vram_bytes": 950317056
+      },
+      {
+        "path": "/sys/class/drm/card2/device",
+        "pci": "0000:13:00.0",
+        "total_bytes": 536870912,
+        "device_used_bytes": 16621568,
+        "process_vram_bytes": 65536
+      }
+    ],
+    "drm_client_count": 3
+  }
+}

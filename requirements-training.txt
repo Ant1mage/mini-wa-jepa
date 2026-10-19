@@ -1,0 +1,2 @@
+# PyTorch ROCm is installed without automatic CUDA/Triton dependencies by bootstrap.sh.
+tensorboard==2.20.0

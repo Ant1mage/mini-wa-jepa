@@ -1,0 +1,17 @@
+test_four_channels_visibility_and_ego_exclusion (test_semantic_bev.SemanticChannelTests.test_four_channels_visibility_and_ego_exclusion) ... ok
+test_invalid_simulation_config (test_stage1.ImageSmokeTests.test_invalid_simulation_config) ... ok
+test_msaa_adapter_does_not_mutate_callers_properties (test_stage1.ImageSmokeTests.test_msaa_adapter_does_not_mutate_callers_properties) ... ok
+test_rejects_black_frame_wrong_shape_and_float (test_stage1.ImageSmokeTests.test_rejects_black_frame_wrong_shape_and_float) ... ok
+test_valid_semantic_image (test_stage1.ImageSmokeTests.test_valid_semantic_image) ... ok
+test_coordinate_convention_and_roundtrip (test_stage2.DataTests.test_coordinate_convention_and_roundtrip) ... ok
+test_future_label_alignment_failure_and_terminal_mask (test_stage2.DataTests.test_future_label_alignment_failure_and_terminal_mask) ... ok
+test_noise_disabled_identity_and_target_not_mutated (test_stage2.DataTests.test_noise_disabled_identity_and_target_not_mutated) ... ok
+test_normalization_roundtrip_at_non_default_scale (test_stage2.DataTests.test_normalization_roundtrip_at_non_default_scale) ... ok
+test_pursuit_sign_pid_braking_and_deterministic_action_noise (test_stage2.DataTests.test_pursuit_sign_pid_braking_and_deterministic_action_noise) ... ok
+test_shards_random_access_across_boundaries_and_cache_bound (test_stage2.DataTests.test_shards_random_access_across_boundaries_and_cache_bound) ... ok
+test_keyboard_pause_single_step_reset_manual_and_quit (test_stage2.ViewerTests.test_keyboard_pause_single_step_reset_manual_and_quit) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 10.655s
+
+OK

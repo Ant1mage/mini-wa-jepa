@@ -1,0 +1,158 @@
+{
+  "calibration_initial": {
+    "center": {
+      "actual_pixel": [
+        63.500000953674316,
+        63.500000953674316
+      ],
+      "expected_pixel": [
+        63.5,
+        63.5
+      ],
+      "max_error_pixel": 9.5367431640625e-07
+    },
+    "forward_10m": {
+      "actual_pixel": [
+        63.500000953674316,
+        43.50000190734863
+      ],
+      "expected_pixel": [
+        63.5,
+        43.5
+      ],
+      "max_error_pixel": 1.9073486328125e-06
+    },
+    "left_10m": {
+      "actual_pixel": [
+        43.500003814697266,
+        63.500000953674316
+      ],
+      "expected_pixel": [
+        43.5,
+        63.5
+      ],
+      "max_error_pixel": 3.814697265625e-06
+    }
+  },
+  "palette": [
+    {
+      "rgb": [
+        0,
+        0,
+        142
+      ],
+      "count": 36
+    },
+    {
+      "rgb": [
+        128,
+        64,
+        128
+      ],
+      "count": 5407
+    },
+    {
+      "rgb": [
+        152,
+        251,
+        152
+      ],
+      "count": 10060
+    },
+    {
+      "rgb": [
+        244,
+        35,
+        232
+      ],
+      "count": 642
+    },
+    {
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "count": 239
+    }
+  ],
+  "renderer": "Radeon RX 7900 XT (radeonsi, navi31, LLVM 20.1.2, DRM 3.57, 6.8.0-147-generic)",
+  "pipe": "eglGraphicsPipe",
+  "calibration_final": {
+    "center": {
+      "actual_pixel": [
+        63.496856689453125,
+        63.491912841796875
+      ],
+      "expected_pixel": [
+        63.5,
+        63.5
+      ],
+      "max_error_pixel": 0.008087158203125
+    },
+    "forward_10m": {
+      "actual_pixel": [
+        63.49729919433594,
+        43.492462158203125
+      ],
+      "expected_pixel": [
+        63.5,
+        43.5
+      ],
+      "max_error_pixel": 0.007537841796875
+    },
+    "left_10m": {
+      "actual_pixel": [
+        43.49693298339844,
+        63.491912841796875
+      ],
+      "expected_pixel": [
+        43.5,
+        63.5
+      ],
+      "max_error_pixel": 0.008087158203125
+    }
+  },
+  "shape": [
+    4,
+    128,
+    128
+  ],
+  "channel_pixels": [
+    5675,
+    751,
+    0,
+    16384
+  ],
+  "complete_pipeline_fps": 129.64966157541969,
+  "steps": 150,
+  "msaa_adjustments": [
+    {
+      "buffer": "filter-base",
+      "requested": 16,
+      "actual_request": 0
+    }
+  ],
+  "drm_fdinfo": [
+    {
+      "fd": "6",
+      "text": "pos:\t0\nflags:\t02100002\nmnt_id:\t27\nino:\t1261\ndrm-driver:\tamdgpu\ndrm-client-id:\t245\ndrm-pdev:\t0000:03:00.0\npasid:\t32788\ndrm-memory-vram:\t4 KiB\ndrm-memory-gtt: \t0 KiB\ndrm-memory-cpu: \t0 KiB\namd-memory-visible-vram:\t4 KiB\namd-evicted-vram:\t0 KiB\namd-evicted-visible-vram:\t0 KiB\namd-requested-vram:\t4 KiB\namd-requested-visible-vram:\t0 KiB\namd-requested-gtt:\t0 KiB\ndrm-shared-vram:\t0 KiB\ndrm-shared-gtt:\t0 KiB\ndrm-shared-cpu:\t0 KiB\n"
+    },
+    {
+      "fd": "7",
+      "text": "pos:\t0\nflags:\t02100002\nmnt_id:\t27\nino:\t1261\ndrm-driver:\tamdgpu\ndrm-client-id:\t233\ndrm-pdev:\t0000:03:00.0\npasid:\t32786\ndrm-memory-vram:\t925988 KiB\ndrm-memory-gtt: \t85700 KiB\ndrm-memory-cpu: \t4116 KiB\namd-memory-visible-vram:\t925988 KiB\namd-evicted-vram:\t0 KiB\namd-evicted-visible-vram:\t0 KiB\namd-requested-vram:\t925988 KiB\namd-requested-visible-vram:\t65780 KiB\namd-requested-gtt:\t85708 KiB\ndrm-shared-vram:\t0 KiB\ndrm-shared-gtt:\t0 KiB\ndrm-shared-cpu:\t0 KiB\ndrm-engine-gfx:\t206752086 ns\ndrm-engine-compute:\t4144684 ns\n"
+    },
+    {
+      "fd": "8",
+      "text": "pos:\t0\nflags:\t02100002\nmnt_id:\t27\nino:\t1272\ndrm-driver:\tamdgpu\ndrm-client-id:\t234\ndrm-pdev:\t0000:13:00.0\npasid:\t32786\ndrm-memory-vram:\t60 KiB\ndrm-memory-gtt: \t44 KiB\ndrm-memory-cpu: \t4116 KiB\namd-memory-visible-vram:\t60 KiB\namd-evicted-vram:\t0 KiB\namd-evicted-visible-vram:\t0 KiB\namd-requested-vram:\t60 KiB\namd-requested-visible-vram:\t60 KiB\namd-requested-gtt:\t52 KiB\ndrm-shared-vram:\t0 KiB\ndrm-shared-gtt:\t0 KiB\ndrm-shared-cpu:\t0 KiB\n"
+    },
+    {
+      "fd": "9",
+      "text": "pos:\t0\nflags:\t02100002\nmnt_id:\t27\nino:\t1261\ndrm-driver:\tamdgpu\ndrm-client-id:\t245\ndrm-pdev:\t0000:03:00.0\npasid:\t32788\ndrm-memory-vram:\t4 KiB\ndrm-memory-gtt: \t0 KiB\ndrm-memory-cpu: \t0 KiB\namd-memory-visible-vram:\t4 KiB\namd-evicted-vram:\t0 KiB\namd-evicted-visible-vram:\t0 KiB\namd-requested-vram:\t4 KiB\namd-requested-visible-vram:\t0 KiB\namd-requested-gtt:\t0 KiB\ndrm-shared-vram:\t0 KiB\ndrm-shared-gtt:\t0 KiB\ndrm-shared-cpu:\t0 KiB\n"
+    },
+    {
+      "fd": "10",
+      "text": "pos:\t0\nflags:\t02100002\nmnt_id:\t27\nino:\t1261\ndrm-driver:\tamdgpu\ndrm-client-id:\t245\ndrm-pdev:\t0000:03:00.0\npasid:\t32788\ndrm-memory-vram:\t4 KiB\ndrm-memory-gtt: \t0 KiB\ndrm-memory-cpu: \t0 KiB\namd-memory-visible-vram:\t4 KiB\namd-evicted-vram:\t0 KiB\namd-evicted-visible-vram:\t0 KiB\namd-requested-vram:\t4 KiB\namd-requested-visible-vram:\t0 KiB\namd-requested-gtt:\t0 KiB\ndrm-shared-vram:\t0 KiB\ndrm-shared-gtt:\t0 KiB\ndrm-shared-cpu:\t0 KiB\n"
+    }
+  ]
+}
